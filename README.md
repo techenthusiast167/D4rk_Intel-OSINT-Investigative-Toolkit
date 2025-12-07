@@ -82,13 +82,15 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://dnslytics.com/
 
 
-# Document Metadata Extractors
+# PDF/ Document Metadata Extractors
 
 - https://exif.tools/
   
 - https://www.cyberciti.biz/faq/linux-unix-view-technical-details-of-pdf/
   
 - https://www.metadata2go.com/
+
+- https://github.com/ianare/exif-samples
 
 
 
