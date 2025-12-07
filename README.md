@@ -1,144 +1,197 @@
 # D4rk_Intel-OSINT-Investigative-Toolkit
 A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repository contains a collection of scripts, resources, and methodologies to aid in gathering and analyzing publicly available information. Designed for security researchers, journalists, and forensic analysts for ethical and legal investigations.
 
+# Note Taking App
 
-Usernames:
+- https://www.notion.com/
 
-https://instantusername.com/ 
-https://com.lullar.com/ 
-https://whatsmyname.app/ 
-https://seintpl.github.io/NAMINT/ 
-https://www.user-searcher.com/ 
-https://discord.id/ 
+- https://obsidian.md/
+
+- https://onenote.cloud.microsoft/
 
 
+# Usernames:
 
-Reverse Image:
+- https://instantusername.com/ 
 
-https://images.google.com/ 
-https://tineye.com/ 
-https://www.duplichecker.com/reverse-image-search.php 
-https://pimeyes.com/en 
+- https://com.lullar.com/ 
 
+- https://whatsmyname.app/ 
 
+- https://seintpl.github.io/NAMINT/ 
 
-People/Phone/Email:
+- https://www.user-searcher.com/ 
 
-https://www.idcrawl.com/ 
-https://www.411.com/ 
-https://www.spokeo.com/ 
-
-https://hunter.io/email-finder 
-https://epieos.com/ 
+- https://discord.id/ 
 
 
 
-Email/Password Breaches:
+# Reverse Image:
 
-https://haveibeenpwned.com/ 
-https://whatismyipaddress.com/breach-check 
-https://breachdirectory.org/ 
+- https://images.google.com/ 
+
+- https://tineye.com/ 
+
+- https://www.duplichecker.com/reverse-image-search.php 
+
+- https://pimeyes.com/en 
+
+
+# People/Phone/Email:
+
+- https://www.idcrawl.com/ 
+
+- https://www.411.com/ 
+
+- https://www.spokeo.com/ 
+
+- https://hunter.io/email-finder 
+
+- https://epieos.com/ 
 
 
 
-Doxxing/Chats/Leaks:
+# Email/Password Breaches:
+
+- https://haveibeenpwned.com/ 
+
+- https://whatismyipaddress.com/breach-check 
+
+- https://breachdirectory.org/ 
+
+
+
+# Doxxing/Chats/Leaks:
 
 https://doxbin.net/ 
+
 https://discordleaks.unicornriot.ninja/ 
+
 https://www.4chan.org/ 
 
 
 
-IP/Domain Lookup:
+# IP/Domain Lookup:
 
-https://www.nslookup.io/ 
-https://www.arin.net/ 
-https://who.is/ 
-https://dnslytics.com/ 
+- https://www.nslookup.io/ 
 
+- https://www.arin.net/ 
 
+- https://who.is/ 
 
-Residential Ownership:
-
-https://blockshopper.com/ 
-https://www.redfin.com/ 
-https://www.zillow.com/ 
+- https://dnslytics.com/ 
 
 
 
-Business Ownership:
+# Residential Ownership:
 
-https://opencorporates.com/ 
+- https://blockshopper.com/ 
 
+- https://www.redfin.com/ 
 
-
-County Records (US Properties):
-
-https://www.countyoffice.org/ 
+- https://www.zillow.com/ 
 
 
 
-Court Proceedings (Public Access - San Mateo County, CA):
+# Business Ownership:
 
-https://odyportal-ext.sanmateocourt.org/Portal-External/Home/Dashboard/29 
+- https://opencorporates.com/
 
 
+# Vessel Tracking 
 
-Inmate Lookup Sites:
+- https://www.vesselfinder.com/
 
-https://vadoc.gtlvisitme.com/app 
-https://vinelink.com/#state-selection 
-https://ciris.mt.cdcr.ca.gov/search 
-https://www.bop.gov/inmateloc/ 
+- 
 
 
 
-Maps:
+# County Records (US Properties):
+
+- https://www.countyoffice.org/ 
+
+
+
+# Court Proceedings (Public Access - San Mateo County, CA):
+
+- https://odyportal-ext.sanmateocourt.org/Portal-External/Home/Dashboard/29 
+
+
+
+# Inmate Lookup Sites:
+
+- https://vadoc.gtlvisitme.com/app 
+
+- https://vinelink.com/#state-selection 
+
+- https://ciris.mt.cdcr.ca.gov/search 
+
+- https://www.bop.gov/inmateloc/ 
+
+
+
+# Maps:
 
 https://everytownresearch.org/labs/everyshot/?zoom=-8.0&lat=32.74066&lng=-83.76498&compare=main&view=map&lview=incident&incident=&city1=&city2=&state1=&state2=&compt=7*April*2025_10*April*2025 (Real Time Shootings)
+
 https://www.gangmap.com/ (Aggregated Gang Territories courtesy of Nathaniel Fried )
+
 https://www.meganslaw.ca.gov/Disclaimer (Sex Offender Registration - California)
 
 
 
-Public Cameras:
+# Public Cameras:
 
 https://cwwp2.dot.ca.gov/vm/streamlist.htm 
+
 https://www.weatherbug.com/traffic-cam/washington-dc-20001 
+
 https://roads.santaclaracounty.gov/roads-and-traffic-info/view-live-traffic-cam-county-maintained-roads 
+
 https://cameras.alertcalifornia.org/?pos=37.2382_-119.0000_6
 
 
 
-Mass Shooter Databases:
+# Mass Shooter Databases:
 
 https://www.theviolenceproject.org/ 
+
 https://cssh.northeastern.edu/sccj/mass-killing-database/ 
+
 https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/ 
 
 
 
-OSINT Training Resources: 
+# OSINT Training Resources: 
 
-https://www.mrsosint.com/ (Credit to Mrs. OSINT )
-https://www.forensicosint.com/ (Credit to Ritu Gill (OSINT Techniques) )
-https://gralhix.com/ (Credit to Sofia Santos)
-https://osmosisinstitute.org/ (Credit to my OSMOSIS sponsor, Cynthia Navarro, OSC) 
+- https://www.mrsosint.com/ (Credit to Mrs. OSINT )
 
+- https://www.forensicosint.com/ (Credit to Ritu Gill (OSINT Techniques) )
 
+- https://gralhix.com/ (Credit to Sofia Santos)
 
-Volunteer OSINT Experience:
+- https://osmosisinstitute.org/ (Credit to my OSMOSIS sponsor, Cynthia Navarro, OSC)
 
-https://ncptf.org/volunteer-opportunity-osint-analyst/?utm_content=326004233&utm_medium=social&utm_source=linkedin&hss_channel=lcp-65910217 (Credit to Rae Baker, Maritime SME, Private Inv, CISSP for insight on this)
-
+- https://zsecurity.org/courses/learn-osint-open-source-intelligence-from-scratch-course/?srsltid=AfmBOoo1YwyGMZ3rgCgbesk6vdWHOOlIhmP6C0qrEQXcyI0Y1fdgi1qr (Zsecurity Professional OSINT course)
 
 
-Global Analysis, Reports & Crime Data:
 
-https://www.osac.gov/ 
-https://www.earthdata.nasa.gov/ 
-https://www.intelligence.gov/ 
-https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
+# Volunteer OSINT Experience:
+
+- https://ncptf.org/volunteer-opportunity-osint-analyst/?utm_content=326004233&utm_medium=social&utm_source=linkedin&hss_channel=lcp-65910217 (Credit to Rae Baker, Maritime SME, Private Inv, CISSP for insight on this)
+
+
+
+# Global Analysis, Reports & Crime Data:
+
+
+- https://www.osac.gov/ 
+
+- https://www.earthdata.nasa.gov/ 
+
+- https://www.intelligence.gov/ 
+
+- https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
 
 
 
