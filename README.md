@@ -265,4 +265,4 @@ roblox.com
 
 # Conclusion:
 
-I would like to express my gratitude to the numerous mentors and leaders within the community who have generously shared their guidance and expertise, thereby making this compilation possible. This resource will be continuously expanded and refined for both my personal use and the benefit of our team. I welcome any additional recommendations or suggestions and will promptly address any unintentional omissions in citations or credit.
+I would like to express my gratitude to the numerous mentors and leaders within the community who have generously shared their guidance and expertise, thereby making this compilation possible. This resource will be continuously expanded and refined for both my personal use and the benefit of the OSINT community. I welcome any additional recommendations or suggestions and will promptly address any unintentional omissions in citations or credit.
