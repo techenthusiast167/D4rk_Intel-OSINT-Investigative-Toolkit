@@ -39,61 +39,106 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # Image Analysis 
 
-- https://images.google.com/
-- https://tineye.com/
-- https://yandex.com/images/
+- https://images.google.com
+  
+- https://tineye.com
+ 
+- https://yandex.com/images
+  
 - https://github.com/exiftool/exiftool
-- https://fotoforensics.com/
-- https://getghiro.org/
+  
+- https://fotoforensics.com
+  
+- https://getghiro.org
+  
 - https://29a.ch/photo-forensics/#forensic-magnifier
-- https://imageedited.com/
-- https://www.izitru.com/
-- https://www.verexif.com/
-- https://www.pic2map.com/
-- https://jimpl.com/
+  
+- https://imageedited.com
+  
+- https://www.izitru.com
+  
+- https://www.verexif.com
+  
+- https://www.pic2map.com
+  
+- https://jimpl.com
+  
 - https://hivemoderation.com/ai-generated-content-detection
-- https://contentdetector.ai/
-- microsoft.com/en-gb/bing/visual-search?form=MT016O&cs=1873324239
-- google.com/?olud&zx=1765378352198&no_sw_cr=1
-- https://www.stolencamerafinder.com/
+  
+- https://contentdetector.ai
+  
+- https://www.stolencamerafinder.com
+  
 - https://www.labnol.org/reverse
-- https://infringement.report/api/raider-reverse-image-search/
+  
+- https://infringement.report/api/raider-reverse-image-search
+  
 - https://www.duplichecker.com/reverse-image-search.php
 
 
 # Data Visualization
 
-- https://www.maltego.com/
+- https://www.maltego.com
+
 - https://app.osintracker.com/investigations
-- https://gephi.org/
+  
+- https://gephi.org
+  
 - https://www.maltego.com/pricing/?utm_source=paterva.com&utm_medium=referral&utm_campaign=301
-- https://www.kali.org/tools/spiderfoot/
-- https://www.palantir.com/platforms/gotham/
-- https://cytoscape.org/
+  
+- https://www.kali.org/tools/spiderfoot
+
+- https://www.palantir.com
+    
+- https://cytoscape.org
+  
 - https://www.yworks.com/products/yed
-- https://graphcommons.com/
-- https://linkurious.com/
-- https://cambridge-intelligence.com/keylines/
-- https://malfors.com/
+  
+- https://graphcommons.com
+  
+- https://linkurious.com
+ 
+- https://cambridge-intelligence.com/keylines
+  
+- https://malfors.com
+  
 - https://public.tableau.com/app/discover
-- https://app.powerbi.com/
-- https://observablehq.com/
+  
+- https://app.powerbi.com
+
+- https://observablehq.com
+  
 - https://flourish.studio/index.html
-- https://www.datawrapper.de/
-- https://timeline.knightlab.com/
-- https://www.tiki-toki.com/
-- https://www.timetoast.com/
+  
+- https://www.datawrapper.de
+  
+- https://timeline.knightlab.com
+  
+- https://www.tiki-toki.com
+  
+- https://www.timetoast.com
+  
 - https://www.lucidchart.com/pages
-- https://app.diagrams.net/
-- https://www.mindmeister.com/
-- https://kumu.io/
+  
+- https://app.diagrams.net
+  
+- https://www.mindmeister.com
+  
+- https://kumu.io
+  
 - https://www.anaconda.com/download
-- https://neo4j.com/product/bloom/
-- https://www.r-project.org/
-- https://www.graphistry.com/
-- https://www.rawgraphs.io/
-- https://www.chartjs.org/
-- https://d3js.org/
+ 
+- https://neo4j.com/product/bloom
+  
+- https://www.r-project.org
+  
+- https://www.graphistry.com
+  
+- https://www.rawgraphs.io
+  
+- https://www.chartjs.org
+  
+- https://d3js.org
 
 
 
@@ -104,48 +149,66 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # People/Phone/Email:
 
-- https://www.idcrawl.com/ 
+- https://www.idcrawl.com
 
-- https://www.411.com/ 
+- https://www.411.com
 
-- https://www.spokeo.com/ 
+- https://www.spokeo.com
 
 - https://hunter.io/email-finder 
 
-- https://epieos.com/ 
+- https://epieos.com
 
 
 
 # Email/Password Breaches:
 
-- https://haveibeenpwned.com/ 
+- https://haveibeenpwned.com
 
 - https://whatismyipaddress.com/breach-check 
 
-- https://breachdirectory.org/
+- https://breachdirectory.org
 
 
 
 # Geolocation
 
 - https://www.google.com/maps
+  
 - https://earth.google.com/static/multi-threaded/versions/10.95.1.3/index.html?
-- https://www.geoguessr.com/
-- https://www.suncalc.org/#/27.6936,-97.5195,3/2025.12.10/16:27/1/3
+  
+- https://www.geoguessr.com
+
+  - https://www.suncalc.org/#/27.6936,-97.5195,3/2025.12.10/16:27/1/3
+    
 - openstreetmap.org
-- https://www.windy.com/
-- https://www.flightradar24.com/
-- https://www.marinetraffic.com/
-- https://www.timeanddate.com/worldclock/
+  
+- https://www.windy.com
+  
+- https://www.flightradar24.com
+  
+- https://www.marinetraffic.com
+  
+- https://www.timeanddate.com/worldclock
+  
 - https://www.geocaching.com/play
-- https://what3words.com/attracts.quietly.ruffle
-- https://www.wolframalpha.com/
-- https://www.mapquest.com/
-- https://www.gps-coordinates.net/
-- https://www.distance.to/
+
+  - https://what3words.com/attracts.quietly.ruffle
+    
+- https://www.wolframalpha.com
+  
+- https://www.mapquest.com
+  
+- https://www.gps-coordinates.net
+  
+- https://www.distance.to
+  
 - freemaptools.com/radius-around-point.htm
-- https://www.earthdata.nasa.gov/data/tools/worldview
+
+  - https://www.earthdata.nasa.gov/data/tools/worldview
+    
 - https://www.arcgis.com/apps/webappviewer/index.html
+  
 - https://www.arcgis.com/apps/webappviewer/index.html
 
 
@@ -155,79 +218,147 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 # Social Media Analysis
 
 - https://github.com/sherlock-project/sherlock
+  
 - https://github.com/twintproject/twint
+  
 - https://github.com/Datalux/Osintgram
-- https://namechk.com/
-- https://instantusername.com/
-- https://whatsmyname.app/
-- https://usersearch.org/
-- https://www.hootsuite.com/
-- https://mention.com/en/
-- https://www.brandwatch.com/
-- https://foller.me/
-- https://www.twitonomy.com/
-- https://tinfoleak.com/
+  
+- https://namechk.com
+  
+- https://instantusername.com
+  
+- https://whatsmyname.app
+  
+- https://usersearch.org
+  
+- https://www.hootsuite.com
+  
+- https://mention.com/en
+  
+- https://www.brandwatch.com
+  
+- https://foller.me
+  
+- https://www.twitonomy.com
+  
+- https://tinfoleak.com
+  
+
 - https://www.hugedomains.com/domain_profile.cfm?d=birdpan.com
-- https://lookup-id.com/
-- https://whopostedwhat.com/
-- https://imginn.com/
+  
+- https://lookup-id.com
+  
+- https://whopostedwhat.com
+  
+- https://imginn.com
+  
 - https://github.com/instaloader/instaloader
-- https://skrapp.io/
-- https://hunter.io/
-- https://osintframework.com/
+  
+- https://skrapp.io
+  
+- https://hunter.io
+  
+- https://osintframework.com
+  
 - https://www.linkedin.com/sales/ssi
+  
 - https://github.com/laramies/theHarvester
+  
 - https://github.com/jivoi/awesome-osint
-- https://github.com/WebBreacher/WhatsMyName
-- https://ww38.searchmy.bio/
-- https://tgstat.com/
-- https://lullar.com/
-- https://trends.google.com/trends/
+
+  - https://github.com/WebBreacher/WhatsMyName
+    
+- https://ww38.searchmy.bio
+  
+- https://tgstat.com
+  
+- https://lullar.com
+  
+- https://trends.google.com/trends
 
 
 
   # Search & Discovery
 
 - https://www.google.com/advanced_search
-- https://duckduckgo.com/
-- https://www.shodan.io/
-- https://web.archive.org/
-- - https://www.startpage.com/
-- https://www.bing.com/
-- https://yandex.com/
-- https://www.baidu.com/
-- https://searx.org/
-- https://www.wolframalpha.com/
-- https://scholar.google.com/
-- https://pipl.com/
-- https://www.spokeo.com/
-- https://www.whitepages.com/
-- https://www.deepdyve.com/
-- https://www.base-search.net/
-- https://www.refseek.com/
-- https://www.recordedfuture.com/
-- https://www.darktrace.com/
-- https://haveibeenpwned.com/
-- https://www.dehashed.com/
-- https://leakcheck.io/
-- https://www.intelx.io/
-- https://ghostproject.fr/
-- https://www.scribd.com/
-- https://pp.one/
-- https://www.slideshare.net/
-- https://www.4shared.com/
-- https://www.box.com/
+  
+- https://duckduckgo.com
+  
+- https://www.shodan.io
+  
+- https://web.archive.org
+  
+- - https://www.startpage.com
+    
+- https://www.bing.com
+  
+- https://yandex.com
+  
+- https://www.baidu.com
+  
+- https://searx.org
+  
+- https://www.wolframalpha.com
+  
+- https://scholar.google.com
+  
+- https://pipl.com
+  
+- https://www.spokeo.com
+ 
+- https://www.whitepages.com
+  
+- https://www.deepdyve.com
+  
+- https://www.base-search.net
+  
+- https://www.refseek.com
+  
+- https://www.recordedfuture.com
+  
+- https://www.darktrace.com
+  
+- https://haveibeenpwned.com
+  
+- https://www.dehashed.com
+  
+- https://leakcheck.io
+  
+- https://www.intelx.io
+  
+- https://ghostproject.fr
+  
+- https://www.scribd.com
+  
+- https://pp.one
+  
+- https://www.slideshare.net
+  
+- https://www.4shared.com
+  
+- https://www.box.com
+  
 - https://github.com/search
+  
 - https://gitlab.com/explore
-- https://bitbucket.org/
-- https://searchcode.com/
-- https://grep.app/
-- https://archive.ph/
-- https://www.loc.gov/
-- https://www.europeana.eu/
-- https://www.misp-project.org/
-- https://otx.alienvault.com/
-- https://threatconnect.com/
+  
+- https://bitbucket.org
+  
+- https://searchcode.com
+  
+- https://grep.app
+  
+- https://archive.ph
+  
+- https://www.loc.gov
+  
+- https://www.europeana.eu
+  
+- https://www.misp-project.org
+  
+- https://otx.alienvault.com
+  
+- https://threatconnect.com
 
 
 
@@ -238,50 +369,78 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # Doxxing/Chats/Leaks:
 
-- https://doxbin.net/ 
+- https://doxbin.net
 
 - https://discordleaks.unicornriot.ninja
 
-- https://www.4chan.org/ 
+- https://www.4chan.org
 
 
 
 # IP/Domain Lookup:
 
-- https://www.nslookup.io/ 
+- https://www.nslookup.io
 
-- https://www.arin.net/ 
+- https://www.arin.net
 
-- https://who.is/ 
+- https://who.is
 
-- https://dnslytics.com/
-- https://dnsdumpster.com/
-- virustotal.com/gui/
-- https://censys.com/
-- https://securitytrails.com/
-- https://mxtoolbox.com/
-- https://dnschecker.org/
-- https://viewdns.info/
-- https://robtex.com/
-- https://www.whatsmydns.net/
-- https://www.shodan.io/
-- https://www.abuseipdb.com/
-- https://ipinfo.io/
+- https://dnslytics.com
+  
+- https://dnsdumpster.com
+  
+- virustotal.com/gui
+  
+- https://censys.com
+  
+- https://securitytrails.com
+  
+- https://mxtoolbox.com
+  
+- https://dnschecker.org
+  
+- https://viewdns.info
+  
+- https://robtex.com
+  
+- https://www.whatsmydns.net
+  
+- https://www.shodan.io
+  
+- https://www.abuseipdb.com
+  
+- https://ipinfo.io
+  
 - https://www.maxmind.com/en/geoip-demo
-- https://www.ipvoid.com/
-- https://www.urlvoid.com/
-- https://hybrid-analysis.com/
-- https://otx.alienvault.com/
-- https://crt.sh/
-- https://www.netcraft.com/
-- https://subdomainfinder.c99.nl/
-- https://web.archive.org/
-- https://dnshistory.org/
-- https://whoisology.com/
-- https://hackertarget.com/
-- https://nmap.online/
-- https://builtwith.com/
-- https://www.wappalyzer.com/
+  
+- https://www.ipvoid.com
+  
+- https://www.urlvoid.com
+ 
+- https://hybrid-analysis.com
+  
+- https://otx.alienvault.com
+  
+- https://crt.sh
+  
+- https://www.netcraft.com
+  
+- https://subdomainfinder.c99.nl
+  
+- https://web.archive.org
+  
+- https://dnshistory.org
+  
+- https://whoisology.com
+  
+- https://hackertarget.com
+  
+- https://nmap.online
+  
+- https://builtwith.com
+  
+- https://www.wappalyzer.com
+  
 - https://bgp.he.net/
 
 
@@ -296,11 +455,11 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # PDF/ Document Metadata Extractors
 
-- https://exif.tools/
+- https://exif.tools
   
-- https://www.cyberciti.biz/faq/linux-unix-view-technical-details-of-pdf/
+- https://www.cyberciti.biz/faq/linux-unix-view-technical-details-of-pdf
   
-- https://www.metadata2go.com/
+- https://www.metadata2go.com
 
 - https://github.com/ianare/exif-samples
 
@@ -308,31 +467,31 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # Residential Ownership:
 
-- https://blockshopper.com/ 
+- https://blockshopper.com
 
-- https://www.redfin.com/ 
+- https://www.redfin.com
 
-- https://www.zillow.com/ 
+- https://www.zillow.com
 
 
 
 # Business Ownership:
 
-- https://opencorporates.com/
+- https://opencorporates.com
 
 
 # Vessel Tracking 
 
-- https://www.vesselfinder.com/
+- https://www.vesselfinder.com
 
 - https://www.marinetraffic.com/en/ais/home/centerx:-12.0/centery:25.0/zoom:4
 
-- https://www.myshiptracking.com/
+- https://www.myshiptracking.com
 
 
 # County Records (US Properties):
 
-- https://www.countyoffice.org/ 
+- https://www.countyoffice.org
 
 
 
@@ -350,7 +509,7 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://ciris.mt.cdcr.ca.gov/search 
 
-- https://www.bop.gov/inmateloc/ 
+- https://www.bop.gov/inmateloc
 
 
 
@@ -378,23 +537,23 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # Mass Shooter Databases:
 
-- https://www.theviolenceproject.org/ 
+- https://www.theviolenceproject.org
 
-- https://cssh.northeastern.edu/sccj/mass-killing-database/ 
+- https://cssh.northeastern.edu/sccj/mass-killing-database
 
-- https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/ 
+- https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data
 
 
 
 # OSINT Training Resources: 
 
-- https://www.mrsosint.com/ (Credit to Mrs. OSINT )
+- https://www.mrsosint.com (Credit to Mrs. OSINT )
 
-- https://www.forensicosint.com/ (Credit to Ritu Gill (OSINT Techniques) )
+- https://www.forensicosint.com (Credit to Ritu Gill (OSINT Techniques) )
 
 - https://gralhix.com/ (Credit to Sofia Santos)
 
-- https://osmosisinstitute.org/ (Credit to my OSMOSIS sponsor, Cynthia Navarro, OSC)
+- https://osmosisinstitute.org (Credit to my OSMOSIS sponsor, Cynthia Navarro, OSC)
 
 - https://zsecurity.org/courses/learn-osint-open-source-intelligence-from-scratch-course/?srsltid=AfmBOoo1YwyGMZ3rgCgbesk6vdWHOOlIhmP6C0qrEQXcyI0Y1fdgi1qr (Zsecurity Professional OSINT course)
 
@@ -409,11 +568,11 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 # Global Analysis, Reports & Crime Data:
 
 
-- https://www.osac.gov/ 
+- https://www.osac.gov
 
-- https://www.earthdata.nasa.gov/ 
+- https://www.earthdata.nasa.gov
 
-- https://www.intelligence.gov/ 
+- https://www.intelligence.gov 
 
 - https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr
 
@@ -421,17 +580,17 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # Vulnerability Protection:
 
-- https://smart911.com/
+- https://smart911.com
   
 - https://buy.aura.com/better-protection-2?mktp=google&c1=19665933250&c2=144595646143&utm_source=google&utm_medium=cpc&utm_content=654328226305&utm_campaign=19665933250&utm_term=aura&gad_source=1&gclid=CjwKCAjwtdi_BhACEiwA97y8BFrSomR3NZPrthBpbBf9wEcRaWDlX2hw3F8SXk94cEnvBs24UbTplRoC-U0QAvD_BwE
 
-- https://www.optery.com/ 
+- https://www.optery.com
 
 - https://lifelock.norton.com/#tabs 
 
 - https://joindeleteme.com/?utm_campaignid=20938184122&utm_adgroupid=156334005254&utm_keyword=deleteme&utm_device=c&utm_matchtype=e&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_content=687414271343&utm_campaign=&utm_term=deleteme&hsa_acc=3126617939&hsa_cam=20938184122&hsa_grp=156334005254&hsa_ad=687414271343&hsa_src=g&hsa_tgt=kwd-301617016498&hsa_kw=deleteme&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiA-5a9BhCBARIsACwMkJ4Jy-hjqCiwGy4WzOWrrl-xHNZf5iVLxYk2A7Sl0g2UCnYkBDDm1-EaAhmYEALw_wcB 
 
-- https://www.360privacy.io/ 
+- https://www.360privacy.io
 
 
 
@@ -439,8 +598,9 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 Whether or not you have access to tradecraft like SpyCloud, Liferaft, Ontic, AlertMedia, Authentic8 or Anomaly Six, here are two inexpensive supplementary paid databases that can provide you with a valuable ROI:
 
-https://effectgroup.io/ 
-https://www.beenverified.com/ 
+- https://effectgroup.io
+
+- https://www.beenverified.com
 
 
 
@@ -449,42 +609,40 @@ https://www.beenverified.com/
 
 When initiating research and conducting in-depth investigations based solely on a username, it is imperative to cross-reference all potential accounts. Even in cases where primary search engines do not provide direct links to social media accounts, independent verification with the same username or a modified version thereof is necessary. Many social media platforms yield similar matches, often with minor variations such as numerical differences, letter substitutions, or other modifications. A comprehensive list of most major social media websites, as well as less common sites, is provided below for your reference:
 
-bluesky.com
-Mastodon.com
-telegram.com
-github.com
-imugr.com
-cashapp.com
-venmo.com
-subtack.com
-tiktok.com
-tumblr.com
-Quora.com
-twitch.tv
-WeChat.com
-discord.com
-kuaishou.com
-weibo.com
-indeed.com
-rednote.com
-https://www.xiaohongshu.com/explore
-https://m.vk.com/?lang=en
-patreon.com
-gab.com
-gettr.com
-truthsocial.com
-chess.com
-whatsapp.com
-facebook.com
-threads.com
-twitter.com
-linkedin.com
-snap.com 
-pinterest.com
-youtube.com
-instagram.com
-reddit.com
-roblox.com 
+- bluesky.com
+- Mastodon.com
+- telegram.com
+- github.com
+- imugr.com
+- cashapp.com
+- venmo.com
+- subtack.com
+- tiktok.com
+- tumblr.com
+- Quora.com
+- twitch.tv
+- WeChat.com
+- discord.com
+- kuaishou.com
+- weibo.com
+- indeed.com
+- rednote.com
+- patreon.com
+- gab.com
+- gettr.com
+- truthsocial.com
+- chess.com
+- whatsapp.com
+- facebook.com
+- threads.com
+- twitter.com
+- linkedin.com
+- snap.com 
+- pinterest.com
+- youtube.com
+- instagram.com
+- reddit.com
+- roblox.com 
 
 
 
@@ -516,7 +674,7 @@ https://www.oreilly.com/library/view/intelligence-driven-incident-response/97814
 
 **By Sam Dubberley, Alexa Koenig & Daragh Murray**
 
-https://academic.oup.com/: Explores the use of open source information for human rights investigations and documentation.
+https://academic.oup.com: Explores the use of open source information for human rights investigations and documentation.
 
 
 
