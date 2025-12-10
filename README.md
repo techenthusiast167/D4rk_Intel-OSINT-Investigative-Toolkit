@@ -3,34 +3,34 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # Note Taking Apps:
 
-- https://www.notion.com/
+- https://www.notion.com
 
-- https://obsidian.md/
+- https://obsidian.md
 
-- https://onenote.cloud.microsoft/
+- https://onenote.cloud.microsoft
 
 
 # Usernames:
 
-- https://instantusername.com/ 
+- https://instantusername.com
 
-- https://com.lullar.com/ 
+- https://com.lullar.com
 
-- https://whatsmyname.app/ 
+- https://whatsmyname.app
 
-- https://seintpl.github.io/NAMINT/ 
+- https://seintpl.github.io/NAMINT
 
-- https://www.user-searcher.com/ 
+- https://www.user-searcher.com
 
-- https://discord.id/ 
+- https://discord.id
 
 
 
 # Reverse Image:
 
-- https://images.google.com/ 
+- https://images.google.com
 
-- https://tineye.com/ 
+- https://tineye.com
 
 - https://www.duplichecker.com/reverse-image-search.php 
 
@@ -175,13 +175,13 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://www.google.com/maps
   
-- https://earth.google.com/static/multi-threaded/versions/10.95.1.3/index.html?
+- https://earth.google.com/static/multi-threaded/versions/10.95.1.3/index.html
   
 - https://www.geoguessr.com
 
--https://www.suncalc.org/#/27.6936,-97.5195,3/2025.12.10/16:27/1/3
+- https://www.suncalc.org
 
-- https://www.openstreetmap.org/
+- https://www.openstreetmap.org
   
 - https://www.windy.com
   
@@ -193,7 +193,7 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
   
 - https://www.geocaching.com/play
 
-  - https://what3words.com/attracts.quietly.ruffle
+- https://what3words.com/attracts.quietly.ruffle
     
 - https://www.wolframalpha.com
   
@@ -203,9 +203,9 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
   
 - https://www.distance.to
   
-- freemaptools.com/radius-around-point.htm
+- https://www.freemaptools.com/radius-around-point.htm
 
-  - https://www.earthdata.nasa.gov/data/tools/worldview
+- https://www.earthdata.nasa.gov/data/tools/worldview
     
 - https://www.arcgis.com/apps/webappviewer/index.html
   
@@ -643,6 +643,249 @@ When initiating research and conducting in-depth investigations based solely on 
 - instagram.com
 - reddit.com
 - roblox.com 
+
+
+# OSINT Capture The Flag Challenges (CTF)
+
+- https://gralhix.com/list-of-osint-exercises
+  
+- https://tryhackme.com/room/sakura
+  
+- https://tryhackme.com/room/ohsint
+  
+- https://hacktoria.com
+
+- https://academy.hackthebox.com/course/preview/osint-corporate-recon
+
+- https://www.reddit.com/r/OSINT/comments/ekcp5b/osint_quiz
+
+- https://www.reddit.com/r/PictureGame
+
+- https://www.osintdojo.com
+
+- https://www.myosint.training
+
+- https://github.com/seintpl/osintquiz
+
+- https://www.tracelabs.org/initiatives/search-party
+
+- https://www.reddit.com/r/whatisthisthing
+
+- https://blog.bushidotoken.net/p/ctf.html
+
+- https://tryhackme.com/room/searchlightosint
+
+- https://cyberdefenders.org/blueteam-ctf-challenges/intel101
+
+
+
+# OSINT LinkedIn Groups
+
+
+- https://www.linkedin.com/groups/64725
+
+- https://www.linkedin.com/groups/2044418
+
+- https://www.linkedin.com/groups/3131037
+
+- https://www.linkedin.com/groups/1681327
+
+- https://www.linkedin.com/groups/12373405
+
+- https://www.linkedin.com/groups/1908171
+
+- https://www.linkedin.com/groups/2086769
+
+- https://www.linkedin.com/groups/109528
+
+- https://www.linkedin.com/company/osmosis-association/posts/?feedView=all
+
+- https://www.linkedin.com/company/osintuk/posts/?feedView=all
+
+- https://www.linkedin.com/groups/13047129
+  
+
+
+# OSINT Webcast
+
+- https://www.toddington.com/drop-in-and-learn-webcasts
+
+- https://osintnewsletter.com
+
+
+#  OSINT YouTube
+
+- https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g
+
+- https://www.youtube.com/@Bendobrown
+
+- https://www.youtube.com/@CyberSudoYT
+
+- https://www.youtube.com/results?search_query=david+bombal+opsint+playlist
+
+- https://www.youtube.com/channel/UCezKbcbnYtrwRXfGzgQMI3w
+
+- https://www.youtube.com/playlist?list=PL423I_gHbWUUOs09899rex4t2l5py9YIk
+
+- https://www.youtube.com/channel/UCjzceWf-OT3ImIKztzGkipA/videos
+
+- https://www.youtube.com/osintdojo
+
+- https://www.youtube.com/user/Authentic8TV
+
+- https://www.youtube.com/channel/UCAqnnQkeSVTC3ZJ7urNiD8Q
+
+- https://www.youtube.com/c/Layer8Conference/featured
+
+- https://www.youtube.com/c/0x4rk%C3%98/videos
+
+- https://www.youtube.com/user/irongeek/featured
+
+- https://www.youtube.com/channel/UC2uPNhGken-ogEpJDi4ly6w
+
+
+
+# Investigative Tools/Resource Collection
+
+- https://start.me/p/4K0DXg/social-media
+
+- https://www.uk-osint.net
+
+- https://start.me/p/ZME8nR/osint
+
+- https://osint.link
+
+- https://github.com/danieldurnea/FBI-tools
+
+- https://start.me/p/VRxaj5/dating-apps-and-hook-up-sites-for-investigators
+
+- https://gijn.org/resource/online-research-tools
+
+- https://docs.google.com/document/d/1ydVaJJeL1EYbWtlfj9TPfBTE5IBADkQfZrQaBZxqXGs/edit?tab=t.0
+
+- https://inteltechniques.com/book1.html
+
+- https://maynier.eu/blog/2019/01/05/2019-osint-guide
+
+- https://metaosint.github.io/table
+
+- https://www.toddington.com/resources/cheat-sheets
+
+- https://osintgeek.de/tools
+
+- https://ohshint.gitbook.io/oh-shint-its-a-blog/osint-web-resources/introduction-to-osint-web-resources
+
+- https://www.osintcombine.com/tools
+
+- https://start.me/p/m6OJgv/the-bbc-africa-eye-forensics-dashboard
+
+- https://www.aware-online.com/en/osint-tools
+
+- https://github.com/gerryguy311/Free_CyberSecurity_Professional_Development_Resources/blob/master/README.md
+
+
+
+
+# OSINT News, Blogs and Publications
+
+
+- https://threadreaderapp.com/user/cyb_detective
+
+- https://www.cqcore.uk/home-page/blog-posts
+
+- https://gralhix.com/category/osint
+
+- https://medium.com/@NullByteWht
+
+- https://dfir.blog
+
+- https://blog.nem.ec/recipes
+
+- https://wondersmithrae.medium.com
+
+- https://exposingtheinvisible.org
+
+- https://www.aware-online.com/en
+
+- https://www.theosintjournal.org
+
+- https://www.skopenow.com/about
+
+
+# OSINT Podcasts
+
+
+- https://podcasts.apple.com/us/podcast/cyber-warrior-princess/id1447704787
+
+- https://www.vice.com/en/article/introducing-cyber-a-hacking-podcast-by-motherboard
+
+- https://podcasts.apple.com/us/podcast/the-infosec-osint-show/id1507803617
+
+- https://creators.spotify.com/pod/profile/osintcurious
+
+- https://podcast.shadowdragon.io
+
+- https://darknetdiaries.com
+
+- https://www.social-engineer.org/category/podcast
+
+- https://www.workmanforensics.com/the-podcast
+
+
+
+
+
+# OSINT Of Aircraft, Steamships And Trains 
+
+Satellite monitoring of transport
+
+**Water Transport**
+
+- MarineTraffic
+- VesselFinder
+- Shipspotting
+
+**Aircraft**
+
+- ADS-B Exchange Radar View
+- ADS-B Historical Flight Viewer
+- FlightAware
+- Flightradar24
+- Live ATC
+- OpenSky-Network
+- Federal Aviation Administration
+- Aviation Safety Network
+
+**Trains**
+
+- OpenRailwayMap
+- Transit Visualisation
+- WikiRoutes
+
+
+  **Auto**
+
+  - License Plate Map (Americas)
+  - License Plate Mania
+  - License Plate Map (Europe)
+  - License Plate Map (Asia & Middle East)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
