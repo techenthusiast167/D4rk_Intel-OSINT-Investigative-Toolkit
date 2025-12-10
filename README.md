@@ -179,9 +179,9 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
   
 - https://www.geoguessr.com
 
-  - https://www.suncalc.org/#/27.6936,-97.5195,3/2025.12.10/16:27/1/3
-    
-- openstreetmap.org
+-https://www.suncalc.org/#/27.6936,-97.5195,3/2025.12.10/16:27/1/3
+
+- https://www.openstreetmap.org/
   
 - https://www.windy.com
   
