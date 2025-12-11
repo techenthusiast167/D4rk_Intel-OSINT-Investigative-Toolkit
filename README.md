@@ -387,7 +387,7 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
   
 - https://dnsdumpster.com
   
-- virustotal.com/gui
+- https://www.virustotal.com/gui/home/upload
   
 - https://censys.com
   
