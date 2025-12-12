@@ -1286,6 +1286,19 @@ Removing Metadata
     exiftool -if '$model eq "iPhone 13"' -filename *.jpg
 
 
+# Check if a website is hosted on Cloudflare
+
+    curl -sI https://example.com | grep -qi "server:.*cloudflare\|cf-ray" && echo "Yes, this website uses Cloudflare" || echo "No Cloudflare detected"
+
+**Replace example.com with your target**
+
+
+# HTTP Header Analysis > Using cURL
+
+    curl -I https://example.com
+    
+    curl -v https://example.com
+
 
 
 
