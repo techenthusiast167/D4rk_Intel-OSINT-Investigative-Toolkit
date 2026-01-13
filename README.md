@@ -180,6 +180,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://www.google.com/maps
   
 - https://earth.google.com/static/multi-threaded/versions/10.95.1.3/index.html
+
+- https://what3words.com/beauty.guard.occupy
   
 - https://www.geoguessr.com
 
