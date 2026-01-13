@@ -47,9 +47,9 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
   
 - https://github.com/exiftool/exiftool
 
-- https://stylesuxx.github.io/steganography/
+- https://stylesuxx.github.io/steganography
 
-- https://www.photopea.com/
+- https://www.photopea.com
   
 - https://fotoforensics.com
   
