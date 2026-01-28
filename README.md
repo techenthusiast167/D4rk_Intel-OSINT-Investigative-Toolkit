@@ -497,6 +497,10 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://www.countyoffice.org
 
+- https://registration.dos.fl.gov/en/CheckVoterStatus/Index
+
+- https://www.zillow.com/
+
 
 
 # Court Proceedings (Public Access - San Mateo County, CA):
