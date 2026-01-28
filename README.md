@@ -732,6 +732,8 @@ When initiating research and conducting in-depth investigations based solely on 
 
 #  OSINT YouTube
 
+- https://www.youtube.com/watch?v=TKD1TxqOIyE
+
 - https://www.youtube.com/channel/UCgTNupxATBfWmfehv21ym-g
 
 - https://www.youtube.com/@Bendobrown
