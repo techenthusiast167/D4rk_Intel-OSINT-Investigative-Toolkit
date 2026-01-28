@@ -651,6 +651,10 @@ When initiating research and conducting in-depth investigations based solely on 
 
 # OSINT Capture The Flag Challenges (CTF)
 
+- https://www.linkedin.com/posts/osintuk_new-osint-ctf-challenge-now-live-the-activity-7421600665195487232-mTLH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEClP3EBs2aEXdXsoUUeRsXrvOO4GV5_Lhs
+
+- https://www.linkedin.com/posts/osintuk_uk-osint-community-ctf-operation-echo-activity-7414325054240493568-w9Wn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEClP3EBs2aEXdXsoUUeRsXrvOO4GV5_Lhs
+
 - https://gralhix.com/list-of-osint-exercises
   
 - https://tryhackme.com/room/sakura
@@ -682,6 +686,13 @@ When initiating research and conducting in-depth investigations based solely on 
 - https://cyberdefenders.org/blueteam-ctf-challenges/intel101
 
 - https://www.reddit.com/r/TraceAnObject
+
+
+# OSINT CTF Solving 
+
+- China OSINT Investigations Guide – Week 3 CTF Walkthrough
+
+- https://www.youtube.com/watch?v=tm-SBMFoVy4
 
 
 
