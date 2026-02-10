@@ -558,6 +558,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # OSINT Training Resources: 
 
+- https://training.dfirdiva.com/listing-category/osint?ref=denniskeefe.me ( Credit DFIR Diva )
+
 - https://www.mrsosint.com (Credit to Mrs. OSINT )
 
 - https://www.forensicosint.com (Credit to Ritu Gill (OSINT Techniques) )
