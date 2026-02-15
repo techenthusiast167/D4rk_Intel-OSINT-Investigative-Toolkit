@@ -155,6 +155,10 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # People/Phone/Email:
 
+- https://www.dorkgpt.com
+
+- https://dorksearch.pro
+
 - https://www.lzltool.com/phone-ud-caller
 
 - https://ip138.com
