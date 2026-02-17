@@ -672,6 +672,8 @@ When initiating research and conducting in-depth investigations based solely on 
 
 # OSINT Capture The Flag Challenges (CTF)
 
+- https://www.digitraceint.com/archive
+- 
 - https://www.linkedin.com/posts/osintuk_new-osint-ctf-challenge-now-live-the-activity-7421600665195487232-mTLH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEClP3EBs2aEXdXsoUUeRsXrvOO4GV5_Lhs
 
 - https://www.linkedin.com/posts/osintuk_uk-osint-community-ctf-operation-echo-activity-7414325054240493568-w9Wn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEClP3EBs2aEXdXsoUUeRsXrvOO4GV5_Lhs
