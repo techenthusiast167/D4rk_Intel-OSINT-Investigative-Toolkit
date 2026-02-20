@@ -148,7 +148,11 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 
 
+# Redacted Tools
 
+- https://redacted.app
+
+- https://redact.photo
 
 
 
