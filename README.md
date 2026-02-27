@@ -574,6 +574,10 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # OSINT Training Resources: 
 
+- https://elearningunodc.org/local/courses
+
+- https://www.hozint.com/2025/05/launch-of-the-analyst-erasmus-online-training-programme-on-intelligence-analysis
+
 - https://training.dfirdiva.com/listing-category/osint?ref=denniskeefe.me ( Credit DFIR Diva )
 
 - https://www.mrsosint.com (Credit to Mrs. OSINT )
