@@ -26,6 +26,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://discord.id
 
+- https://kagi.com
+
 
 
 # Reverse Image:
@@ -158,6 +160,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 
 # People/Phone/Email:
+
+- https://kagi.com
 
 - https://www.dorkgpt.com
 
