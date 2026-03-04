@@ -151,7 +151,7 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://d3js.org
 
 
-# Decode Tools#
+# Decode Tools
 
 - https://gchq.github.io/CyberChef
 
