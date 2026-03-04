@@ -157,6 +157,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://online-barcode-reader.inliteresearch.com
 
+- https://jia.je/decode-bcbp
+
 
 
 # Redacted Tools
