@@ -11,6 +11,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://onenote.cloud.microsoft
 
+- https://workspace.google.com/products/docs
+
 
 # Usernames:
 
