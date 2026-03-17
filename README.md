@@ -92,6 +92,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://www.maltego.com
 
+- https://graphi.to
+
 - https://app.osintracker.com/investigations
   
 - https://gephi.org
