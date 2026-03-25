@@ -179,7 +179,15 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 # People/Phone/Email:
 
-https://www.iata.org/en/publications/directories/code-search
+- https://intelbase.is
+
+- https://mailmeteor.com/tools/reverse-email-lookup
+
+- https://mailmeteor.com/email-checker
+
+- https://getprospect.com
+
+- https://www.iata.org/en/publications/directories/code-search
 
 - https://kagi.com
 
