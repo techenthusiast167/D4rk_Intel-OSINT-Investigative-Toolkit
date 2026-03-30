@@ -159,6 +159,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://gchq.github.io/CyberChef
 
+- https://cryptii.com/pipes/caesar-cipher
+
 - https://online-barcode-reader.inliteresearch.com
 
 - https://jia.je/decode-bcbp
