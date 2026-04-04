@@ -189,6 +189,10 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://mailmeteor.com/tools/reverse-email-lookup
 
+- https://kriztalz.sh/pgp-key-analyser
+
+- https://mail-api.proton.me/pks/lookup?op=get&search=username@proton.me
+
 - https://mailmeteor.com/email-checker
 
 - https://getprospect.com
