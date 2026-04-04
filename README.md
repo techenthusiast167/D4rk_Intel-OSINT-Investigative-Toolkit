@@ -185,6 +185,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://radaris.com
 
+- https://www.whitepages.com
+
 - https://mailmeteor.com/tools/reverse-email-lookup
 
 - https://mailmeteor.com/email-checker
