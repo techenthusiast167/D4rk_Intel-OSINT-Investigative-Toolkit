@@ -223,6 +223,10 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://epieos.com
 
+- https://lookup-id.com
+
+- https://archive.org/advancedsearch.php
+
 
 
 # Email/Password Breaches:
