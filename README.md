@@ -252,6 +252,10 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://www.suncalc.org
 
 - https://www.openstreetmap.org
+
+- https://3wifi.dev/map.html
+
+- https://wigle.net
   
 - https://www.windy.com
   
