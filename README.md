@@ -1262,7 +1262,7 @@ OAuth and social media
 ```bash
 Cloud service configurations
 
-"AKIA[0-9A-Z]{16}"  # AWS Key pattern
+"AKIA[0-9A-Z]{16}"  - AWS Key pattern
 "herokuapp.com"
 "firebaseio.com"
 
