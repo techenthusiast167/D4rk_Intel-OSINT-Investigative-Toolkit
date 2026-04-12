@@ -917,81 +917,102 @@ Tools for identifying vehicles, decoding VINs, researching license plates, and a
 ### PDF Metadata Extraction with `pdfinfo`
 
 ```bash
-# Install poppler-utils (includes pdfinfo)
+- Install poppler-utils (includes pdfinfo)
+
 sudo apt update && sudo apt install poppler-utils
 
-# Basic metadata extraction
+- Basic metadata extraction
+
 pdfinfo your_document.pdf
 
-# Extract only XML metadata
+- Extract only XML metadata
+
 pdfinfo -meta your_document.pdf
 
-# Extract embedded JavaScript
+- Extract embedded JavaScript
+
 pdfinfo -js your_document.pdf
 
-# Extract document structure
+- Extract document structure
+
 pdfinfo -struct your_document.pdf
 
-# Get specific field (e.g., page count)
+- Get specific field (e.g., page count)
+
 pdfinfo your_document.pdf | grep "Pages:"
 
-# Filter for author
+- Filter for author
+
 pdfinfo myfile.pdf | grep -i author
 ```
 
 ### Complete ExifTool Guide
 
 ```bash
-# Check installation
+- Check installation
+
 exiftool -ver
 
-# View all metadata (basic)
+- View all metadata (basic)
+
 exiftool image.jpg
 
-# Table format (readable)
+- Table format (readable)
+
 exiftool -s photo.jpg
 
-# JSON output (scripting)
+- JSON output (scripting)
+
 exiftool -json photo.jpg
 
-# Extract specific camera info
+- Extract specific camera info
+
 exiftool -Make -Model -Lens photo.jpg
 
-# Extract GPS coordinates
+- Extract GPS coordinates
+
 exiftool -GPSLatitude -GPSLongitude photo.jpg
 
-# Grouped output
+- Grouped output
+
 exiftool -g1 photo.jpg
 
-# Remove ALL metadata (creates backup)
+- Remove ALL metadata (creates backup)
+
 exiftool -all= photo.jpg
 
-# Remove specific tags
+- Remove specific tags
+
 exiftool -author= -copyright= photo.jpg
 
-# Remove GPS only
+- Remove GPS only
+
 exiftool -gps:all= photo.jpg
 
-# Set new metadata
+- Set new metadata
+
 exiftool -author="John Doe" -copyright="© 2024" photo.jpg
 
-# OSINT investigation workflow
-exiftool suspicious.jpg                          # Initial scan
-exiftool -a -u -g1 suspicious.jpg > full.txt    # Deep analysis
-exiftool -gpslatitude -gpslongitude suspicious.jpg  # Extract GPS
-exiftool -software -history suspicious.jpg      # Check editing software
+OSINT investigation workflow
+
+exiftool suspicious.jpg                         - Initial scan
+exiftool -a -u -g1 suspicious.jpg > full.txt    - Deep analysis
+exiftool -gpslatitude -gpslongitude suspicious.jpg - Extract GPS
+exiftool -software -history suspicious.jpg      - Check editing software
 ```
 
 ### Python Virtual Environment (Kali Linux)
 
 ```bash
-# Method 1: venv (built-in)
+Method 1: venv (built-in)
+
 sudo apt install python3-venv
 python3 -m venv myenv
 source myenv/bin/activate
 deactivate
 
-# Method 2: virtualenv
+Method 2: virtualenv
+
 sudo apt install virtualenv
 virtualenv myenv
 source myenv/bin/activate
@@ -1001,18 +1022,22 @@ deactivate
 ### Tor Installation & Configuration (Kali Linux)
 
 ```bash
-# Install Tor and tools
+Install Tor and tools
+
 sudo apt install -y tor torsocks torbrowser-launcher nyx obfs4proxy
 
-# Start and enable Tor service
+Start and enable Tor service
+
 sudo systemctl start tor
 sudo systemctl enable tor
 
-# Check status and listening port
+Check status and listening port
+
 sudo systemctl status tor
 sudo netstat -tulpn | grep 9050
 
-# Test Tor connection
+Test Tor connection
+
 curl --socks5 127.0.0.1:9050 https://check.torproject.org/
 curl --socks5 127.0.0.1:9050 ifconfig.me
 torsocks curl https://check.torproject.org/
@@ -1028,7 +1053,554 @@ torsocks curl https://check.torproject.org/
 
 ---
 
-## Acknowledgments
+---
+
+
+# GitHub OSINT: The Ultimate Reconnaissance Methodology Guide
+
+**D4rk_Intel** | 7 min read | April 12, 2026
+
+---
+
+## Table of Contents
+
+1. [Introduction: GitHub as an OSINT Goldmine](#introduction)
+2. [Methodology Framework](#methodology-framework)
+3. [User & Organization Discovery](#user--organization-discovery)
+4. [Repository Intelligence Gathering](#repository-intelligence)
+5. [Advanced Code Search Techniques](#advanced-code-search-techniques)
+6. [Metadata & Historical Analysis](#metadata--historical-analysis)
+7. [Quick Investigation Commands](#quick-investigation-commands)
+8. [GitHub Account Creation Date Detection Methods](#github-account-creation-date-detection)
+9. [Automated Reconnaissance Tools](#automated-reconnaissance-tools)
+10. [Legal & Ethical Considerations](#legal--ethical-considerations)
+11. [Case Studies & Real-World Examples](#case-studies--real-world-examples)
+12. [Best Practices & Reporting](#best-practices--reporting)
+
+---
+
+## 1. Introduction: GitHub as an OSINT Goldmine
+
+GitHub has evolved beyond a simple code repository into a comprehensive digital footprint of organizations and individuals. For OSINT investigators, it represents an unparalleled source of intelligence containing:
+
+- Technical infrastructure details
+- Employee information and organizational structure
+- Development methodologies and technology stacks
+- Accidental exposures of sensitive data
+- Historical changes and project evolution
+- Collaboration networks and partnerships
+
+The platform's extensive API and search capabilities make it an essential component of modern digital investigations.
+
+---
+
+## 2. Methodology Framework
+
+### Systematic Reconnaissance Approach
+
+| Phase | Activity |
+|-------|----------|
+| Phase 1 | Target Identification |
+| Phase 2 | User & Organization Profiling |
+| Phase 3 | Repository Enumeration |
+| Phase 4 | Code Analysis & Pattern Recognition |
+| Phase 5 | Metadata Collection |
+| Phase 6 | Correlation & Analysis |
+| Phase 7 | Reporting & Documentation |
+
+---
+
+## 3. User & Organization Discovery
+
+### Individual User Intelligence
+
+#### Basic Profile Information
+
+**API Endpoint for User Data:**
+
+```bash
+https://api.github.com/users/[username]
+```
+
+**Returns comprehensive profile including:**
+- Name, bio, location, company
+- Public repositories count
+- Followers/following networks
+- Account creation date
+- Social media links
+- Hireable status
+
+**Example:**
+
+```bash
+https://api.github.com/users/techenthusiast167
+```
+
+#### Enhanced User Investigation
+
+| Investigation Type | API Endpoint |
+|-------------------|--------------|
+| Repository enumeration | `https://api.github.com/users/[username]/repos` |
+| Social connections (followers) | `https://api.github.com/users/[username]/followers` |
+| Social connections (following) | `https://api.github.com/users/[username]/following` |
+| Activity timeline | `https://api.github.com/users/[username]/events` |
+| Gists investigation | `https://api.github.com/users/[username]/gists` |
+
+---
+
+### Organizational Intelligence Gathering
+
+#### Company Structure Analysis
+
+| Analysis Type | API Endpoint |
+|---------------|--------------|
+| Organization profile | `https://api.github.com/orgs/[orgname]` |
+| Team member enumeration | `https://api.github.com/orgs/[orgname]/members` |
+| Repository portfolio | `https://api.github.com/orgs/[orgname]/repos` |
+| Team structure | `https://api.github.com/orgs/[orgname]/teams` (requires authentication) |
+
+#### Advanced Organizational Insights
+
+- Employee count and roles through commit patterns
+- Development team structure and hierarchy
+- Technology stack preferences
+- Project management methodologies
+- External collaborations and partnerships
+
+---
+
+## 4. Repository Intelligence Gathering
+
+### Comprehensive Repository Analysis
+
+#### Basic Repository Search
+
+**Keyword-based repository discovery:**
+
+```bash
+https://api.github.com/search/repositories?q=[keyword]
+```
+
+**Returns critical information:**
+- Repository names and descriptions
+- Primary programming languages
+- Star and fork counts (popularity indicators)
+- Last update timestamps
+- License information
+- Open issue counts
+
+#### Repository Content Enumeration
+
+| Enumeration Type | API Endpoint |
+|------------------|--------------|
+| Directory structure | `https://api.github.com/repos/[owner]/[repo]/contents` |
+| Branch analysis | `https://api.github.com/repos/[owner]/[repo]/branches` |
+| Contributor identification | `https://api.github.com/repos/[owner]/[repo]/contributors` |
+| Release history | `https://api.github.com/repos/[owner]/[repo]/releases` |
+
+### Critical Repository Elements to Examine
+
+- Configuration files (`.env`, `config.json`, `settings.py`)
+- Documentation (`README.md`, technical specifications)
+- CI/CD pipelines (`.github/workflows`, `.gitlab-ci.yml`)
+- Dependency files (`package.json`, `requirements.txt`)
+- Database schemas and migration scripts
+- API documentation and integration examples
+
+---
+
+## 5. Advanced Code Search Techniques
+
+### Precision Search Operators
+
+#### Target-Specific Searching
+
+| Operator | Format | Example |
+|----------|--------|---------|
+| User targeting | `user:[username] [search_term]` | `user:d4rk_intel "webrecon"` |
+| Organization targeting | `org:[orgname] [search_term]` | `org:targetcorp "api_key"` |
+| Repository targeting | `repo:[owner/repo] [search_term]` | `repo:targetcorp/app "secret"` |
+
+#### File-Based Intelligence Gathering
+
+| Search Type | Format |
+|-------------|--------|
+| File extension | `extension:env "DATABASE_URL"` |
+| File extension | `extension:json "password"` |
+| File extension | `extension:yml "secret"` |
+| File extension | `extension:pem "PRIVATE KEY"` |
+| Filename pattern | `filename:.env.example` |
+| Filename pattern | `filename:config.xml` |
+| Path-specific | `path:.github/workflows` |
+| Path-specific | `path:src/config` |
+
+### Sensitive Data Discovery Patterns
+
+#### Credentials & Authentication
+
+```bash
+API keys and tokens
+
+"api_key", "apikey", "api-key"
+"secret", "password", "token", "auth"
+"aws_access_key", "aws_secret"
+"ghp_", "xoxb-", "sk-"
+
+Database connections
+
+"DATABASE_URL", "DB_PASSWORD"
+"MONGODB_URI", "REDIS_URL"
+
+OAuth and social media
+
+"FACEBOOK_APP_SECRET", "TWITTER_API_KEY"
+"GOOGLE_CLIENT_SECRET"
+```
+
+#### Infrastructure Exposure
+
+```bash
+Cloud service configurations
+
+"AKIA[0-9A-Z]{16}"  # AWS Key pattern
+"herokuapp.com"
+"firebaseio.com"
+
+Internal network references
+
+"192.168.", "10.", "172.16."
+"internal", "localhost", "staging"
+```
+
+---
+
+## 6. Metadata & Historical Analysis
+
+### Commit History Investigation
+
+#### Email Extraction & Attribution
+
+```bash
+- Extract commit emails from repositories
+
+https://api.github.com/repos/[owner]/[repo]/commits
+
+- Advanced email intelligence platform
+
+https://ghintel.secrets.ninja/
+```
+
+#### Historical Pattern Analysis
+
+- Development team working hours and patterns
+- Project milestone timelines
+- Code ownership and responsibility areas
+- Merge patterns and review processes
+
+### Branch & Fork Analysis
+
+#### Fork Network Mapping
+
+- Identify internal copies of external projects
+- Track code reuse across organizations
+- Discover unofficial mirrors and backups
+
+#### Branch Strategy Insights
+
+- Development workflow understanding
+- Feature development timelines
+- Release preparation patterns
+
+---
+
+## 7. Quick Investigation Commands
+
+```bash
+1. Profile Recon
+
+curl -s "https://api.github.com/users/Techenthusiast167" | jq '. | {name, company, location, public_repos}'
+
+2. Repository Scan
+
+trufflehog git https://github.com/Techenthusiast167 --json --verify > techenthusiast_scan.json
+
+3. Code Search
+
+gh search code "filename:.env password" --owner=Techenthusiast167
+
+4. Network Analysis
+
+gh api users/Techenthusiast167/following | jq '.[].login'
+```
+
+---
+
+## 8. GitHub Account Creation Date Detection Methods
+
+### Method 1: Direct API Call (Primary Method)
+
+**API Endpoint:**
+
+```bash
+https://api.github.com/users/[username]
+```
+
+**Example for target:**
+
+```bash
+https://api.github.com/users/Techenthusiast167
+```
+
+**Response includes JSON:**
+
+```json
+{
+  "login": "Techenthusiast167",
+  "id": 123456789,
+  "node_id": "...",
+  "avatar_url": "...",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/Techenthusiast167",
+  "html_url": "https://github.com/Techenthusiast167",
+  "created_at": "2020-05-15T10:30:00Z",
+  "updated_at": "2024-01-20T08:45:00Z"
+}
+```
+
+### Method 2: Using GitHub CLI
+
+```bash
+- Install GitHub CLI first
+
+gh auth login
+
+- Get user info with creation date
+
+gh api users/Techenthusiast167 | jq '.created_at'
+
+- Full user details
+
+gh api users/Techenthusiast167 --jq '. | {username: .login, created_at: .created_at, public_repos: .public_repos}'
+```
+
+### Direct curl Equivalent
+
+#### Basic User Info with Creation Date
+
+```bash
+- Simple curl request
+
+curl -s "https://api.github.com/users/Techenthusiast167"
+
+- Filter specific fields using jq
+
+curl -s "https://api.github.com/users/Techenthusiast167" | jq '{username: .login, created_at: .created_at, public_repos: .public_repos}'
+
+- Extract individual fields
+
+curl -s "https://api.github.com/users/Techenthusiast167" | jq '.created_at'
+curl -s "https://api.github.com/users/Techenthusiast167" | jq '.login'
+curl -s "https://api.github.com/users/Techenthusiast167" | jq '.public_repos'
+```
+
+#### With Authentication (Higher Rate Limits)
+
+```bash
+- Using personal access token
+
+curl -H "Authorization: token ghp_your_token_here" \
+  -s "https://api.github.com/users/Techenthusiast167" | jq '.created_at'
+
+- Using GitHub CLI token (if installed)
+
+curl -H "Authorization: token $(gh auth token)" \
+  -s "https://api.github.com/users/Techenthusiast167" | jq '.created_at'
+```
+
+### Complete curl Examples
+
+#### Example 1: Get Account Creation Date Only
+
+```bash
+curl -s "https://api.github.com/users/Techenthusiast167" | jq -r '.created_at'
+```
+
+#### Example 2: Formatted Account Information
+
+```bash
+curl -s "https://api.github.com/users/Techenthusiast167" | \
+jq -r '"Username: \(.login)\nCreated: \(.created_at)\nRepositories: \(.public_repos)\nFollowers: \(.followers)"'
+```
+
+#### Example 3: Calculate Account Age
+
+```bash
+- Get creation date and calculate age in days
+
+creation_date=$(curl -s "https://api.github.com/users/Techenthusiast167" | jq -r '.created_at')
+account_age=$(( ($(date +%s) - $(date -d "$creation_date" +%s)) / 86400 ))
+echo "Account age: $account_age days"
+
+```
+
+#### Example 4: Complete Profile Snapshot
+
+```bash
+curl -s "https://api.github.com/users/Techenthusiast167" | \
+jq '{
+  username: .login,
+  name: .name,
+  company: .company,
+  location: .location,
+  email: .email,
+  blog: .blog,
+  bio: .bio,
+  account_created: .created_at,
+  account_updated: .updated_at,
+  public_repos: .public_repos,
+  public_gists: .public_gists,
+  followers: .followers,
+  following: .following,
+  hireable: .hireable
+}'
+```
+
+#### Batch Check Multiple Users
+
+```bash
+- Check multiple accounts
+
+usernames=("Techenthusiast167" "octocat" "torvalds")
+
+for user in "${usernames[@]}"; do
+    echo -n "$user: "
+    curl -s "https://api.github.com/users/$user" | jq -r '.created_at'
+    sleep 1  # Rate limit respect
+done
+
+```
+
+#### Save to File with Timestamp
+
+```bash
+- Save complete profile with timestamp
+
+curl -s "https://api.github.com/users/Techenthusiast167" | \
+jq --arg date "$(date -Iseconds)" '. + {investigation_date: $date}' > techenthusiast167_profile_$(date +%Y%m%d_%H%M%S).json
+
+```
+
+### Quick One-Liners
+
+```bash
+- Get just the creation date
+
+curl -s "https://api.github.com/users/Techenthusiast167" | jq -r '.created_at'
+
+- Get username and creation date
+
+curl -s "https://api.github.com/users/Techenthusiast167" | jq -r '"\(.login) - \(.created_at)"'
+
+- Check if user exists and get creation date
+
+curl -s -o -w "%{http_code}" "https://api.github.com/users/Techenthusiast167" && curl -s "https://api.github.com/users/Techenthusiast167" | jq '.created_at'
+
+```
+
+> **Note:** The `curl + jq` combination is more universal than GitHub CLI since it works on any system with these basic tools installed, and doesn't require additional authentication for basic public profile lookups.
+
+---
+
+## 9. Automated Reconnaissance Tools
+
+### Specialized GitHub OSINT Tools
+
+#### Credential Scanning
+
+```bash
+- TruffleHog - Advanced secret scanning
+
+trufflehog git https://github.com/example/repo.git --json --verify
+
+- Gitleaks - Pattern-based detection
+
+gitleaks detect --source=/path/to/repo -v
+
+- GitRob - Comprehensive repository analysis
+
+gitrob target-organization
+
+- GitRecon - Automated enumeration
+
+gitrecon -u targetusername
+
+```
+
+---
+
+## 10. Legal & Ethical Considerations
+
+### Compliance Framework
+
+| Consideration | Requirement |
+|---------------|-------------|
+| Authorization | Always ensure proper legal authority |
+| Rate Limit Respect | Adhere to GitHub's API usage policies |
+| Data Handling | Secure storage and processing of collected information |
+| Disclosure Protocols | Follow responsible disclosure for found vulnerabilities |
+
+### Ethical Boundaries
+
+- Only access publicly available information
+- Respect organization privacy settings
+- Avoid disruptive scanning techniques
+- Maintain professional confidentiality
+
+---
+
+## 11. Case Studies & Real-World Examples
+
+### Incident Response Scenarios
+
+#### Case Study 1: Accidental Credential Exposure
+
+- **Situation:** Developer commits AWS keys to public repository
+- **Action:** OSINT investigation identifies exposure within 2 hours
+- **Outcome:** Rapid response prevents cloud infrastructure compromise
+
+#### Case Study 2: Insider Threat Identification
+
+- **Situation:** Unauthorized code copying detected through fork analysis
+- **Action:** Employee departure risk assessment via commit pattern changes
+- **Outcome:** Proactive measures implemented based on intelligence
+
+---
+
+## 12. Best Practices & Reporting
+
+### Investigation Documentation
+
+#### Standardized Reporting Format
+
+| Section | Content |
+|---------|---------|
+| Executive Summary | High-level findings and impact |
+| Detailed Technical Evidence | Raw data, API responses, screenshots |
+| Risk Assessment | Severity and potential impact analysis |
+| Recommended Mitigation | Actionable remediation steps |
+| Supporting Artifacts | Logs, timestamps, references |
+
+### Professional Standards
+
+- Maintain thorough investigation notes
+- Validate findings through multiple sources
+- Correlate GitHub intelligence with other OSINT data
+- Present findings in clear, actionable formats
+
+
+
+
+---
 
 This toolkit is a compilation of community knowledge. Gratitude to the numerous mentors, researchers, and practitioners who have shared their expertise. Special thanks to:
 
