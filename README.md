@@ -30,6 +30,7 @@ Discover accounts across platforms by username or email.
 | User Searcher | Deep search for usernames across niche platforms | https://www.user-searcher.com |
 | Discord ID | Resolve Discord user IDs to profiles | https://discord.id |
 | Kagi | Privacy-first search engine with username search capabilities | https://kagi.com |
+| IDcrawl | Deep web identity search across social media platforms, usernames, emails, and phone numbers | https://www.idcrawl.com |
 
 ---
 
@@ -751,6 +752,165 @@ Engage with the OSINT community.
 | Bellingcat | Investigative collective | https://www.bellingcat.com |
 
 ---
+
+
+## Phase 37: Vehicle & VIN Intelligence
+
+Tools for identifying vehicles, decoding VINs, researching license plates, and analyzing vehicle history.
+
+---
+
+### VIN Decoders & Lookup Tools
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| FaxVin | Find vehicle information and records based on VIN number (US) | https://www.faxvin.com |
+| VehicleHistory.com | VIN search with vehicle history and accident reports | https://www.vehiclehistory.com |
+| Vindecoderz | Free VIN decoder with comprehensive specifications | https://vindecoderz.com |
+| NHTSA VIN Decoder | Official National Highway Traffic Safety Administration decoder | https://vindecoder.nhtsa.dot.gov |
+| EpicVIN | Free and paid VIN checks with vehicle history reports | https://www.epicvin.com |
+| CARFAX for Police | Law enforcement vehicle history app (requires agency credentials) | https://play.google.com/store/apps/details?id=com.carfax.carfaxforpolice |
+| NMVTIS | National Motor Vehicle Title Information System - approved data providers | https://www.vehiclehistory.gov |
+| Bolid | Mobile app for VIN and license plate lookup (US, Europe) | https://apps.apple.com/pt/app/bolid/id1546982647 |
+| BigRig | Commercial truck and semi-truck VIN decoder | https://bigrig.com |
+| Cyclevin | Motorcycle VIN database for stolen vehicles | https://cyclevin.com |
+| ATVStyle | ATV VIN decoder | https://atvstyle.com |
+| Vinpit | RV and motorhome VIN lookup | https://vinpit.com |
+
+---
+
+### License Plate Lookup Tools
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| FaxVin (Plate Search) | License plate search by number and state (US) | https://www.faxvin.com/license-plate-lookup |
+| FindByPlate | Vehicle information lookup via license plate | https://findbyplate.com |
+| VehicleHistory.com Plate Search | License plate search with vehicle history | https://www.vehiclehistory.com/license-plate-search |
+| Platesmania | International database of license plate images | https://platesmania.com |
+| World License Plates | Database of plate images by country and province | https://www.worldlicenseplates.com |
+| License Plate Mania | License plate images from around the world | https://licenseplatemania.com |
+| AutoTraveller | License plate regulations by country | https://autotraveller.net |
+| Venicle Search | Vehicle number search across 14 countries | https://venicle.com |
+
+---
+
+### Vehicle Identification from Images
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Carnet AI | Identify vehicle make and model from uploaded image | https://carnet.ai |
+| Vehicle Recognition | Car model identification from image | https://carmodel.toolpie.com |
+| CarLogos | Database of car manufacturer logos worldwide | https://carlogos.com |
+| Plate Recognition AI | License plate recognition from images | https://platerecognition.ai |
+
+---
+
+### Manufacturer-Specific VIN Decoders
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Ford VIN Search | Ford vehicle VIN decoder | https://www.ford.com/support/vehicle/ |
+| Chevrolet VIN Search | Chevy VIN decoder | https://my.chevrolet.com/vehicle/ |
+| Toyota VIN Search | Toyota VIN decoder | https://www.toyota.com/owners/ |
+| Honda VIN Search | Honda VIN decoder | https://owners.honda.com/ |
+| BMW VIN Decoder | BMW-specific VIN decoder with option list | https://bimmer.work |
+| Audi VIN Search | Audi VIN decoder | https://www.audiusa.com/help/ |
+| Nissan VIN Search | Nissan VIN decoder | https://www.nissanusa.com/owners/ |
+| Hyundai VIN Search | Hyundai VIN decoder | https://www.hyundaiusa.com/ |
+| Dodge VIN Search | Dodge VIN decoder | https://www.dodge.com/ |
+| GM VIN Search | General Motors VIN decoder | https://www.gm.com/ |
+| Yamaha VIN Search | Yamaha motorcycle VIN decoder | https://www.yamahamotorsports.com |
+| Kawasaki VIN Search | Kawasaki VIN decoder | https://www.kawasaki.com |
+
+---
+
+### Regional & International Vehicle Registries
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| FAA Aircraft Inquiry | US aircraft registration and owner information | https://registry.faa.gov/aircraftinquiry |
+| Aviation Safety Network | Aircraft incident database | https://aviation-safety.net |
+| Cartell.ie | Japanese vehicle import registry (Ireland) | https://cartell.ie |
+| SivAuto.fr | French license plate search | https://sivauto.fr |
+| Vic Roads | Victoria, Australia vehicle registry | https://www.vicroads.vic.gov.au |
+| Queensland.gov | Queensland, Australia license plate registry | https://www.qld.gov.au/transport |
+| Samgongustafa | Iceland plate search registry | https://samgongustafa.is |
+| Eteenindus | Estonia plate registry | https://eteenindus.ee |
+| STKonline | Slovakia plate search | https://stkonline.sk |
+| DigitalService.dk | Denmark, Sweden, Norway plate search | https://digital-service.dk |
+| Itarga | Italy plate search (iOS app) | https://itarga.com |
+
+---
+
+### Insurance & Vehicle Status Verification
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Italy Insurance Control | Verify insurance validity for Italian plates | https://www.ilportaledellautomobilista.it |
+| Austria Plate Search (vvo.at) | Insurance verification for Austrian plates | https://vvo.at |
+| Croatia Insurance Verification | Verify insurance by plate (Croatia) | https://huo.hr |
+| Czech Republic Insurance | Insurance verification by plate | https://ic.ckp.cz |
+| Poland Insurance (ufg.pl) | Insurance verification by plate | https://ufg.pl |
+| Romania Insurance (aida.info) | Insurance verification by VIN or plate | https://aida.info |
+
+---
+
+### OSINT Tools with Vehicle Lookup Features
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Intelbase | OSINT bot with VIN lookup, court records, and breach checking | https://github.com/intelbase-osint/intelbase-osint |
+| Bitcrook | OSINT framework with VIN lookup package | https://github.com/audioo/bitcrook |
+| X-osint | OSINT tool with VIN extraction and license plate lookup (US) | https://github.com/TermuxHackz/X-osint |
+| Vehicle OSINT Collection | Comprehensive GitHub repo of vehicle investigation tools | https://github.com/TheBurnsy/Vehicle-OSINT-Collection |
+
+---
+
+### Additional Vehicle Research Resources
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Commercial Truck Trader | Database of commercial trucks in the US | https://www.commercialtrucktrader.com |
+| FMCSA | Federal Motor Carrier Safety Administration - company safety records | https://www.fmcsa.dot.gov |
+| ATVTrader | Database of ATVs for sale with images | https://www.atvtrader.com |
+| AutoCheck (Experian) | Vehicle history scoring by Experian | https://www.autocheck.com |
+| Tire Tread Library | Database of tire tread patterns for identification | https://www.treadlibrary.com |
+
+
+---
+
+### Vehicle Recall & Safety Information
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| NHTSA Recalls | Official US recall lookup by VIN | https://www.nhtsa.gov/recalls |
+| SaferCar.gov | NHTSA vehicle safety complaints and recalls | https://www.safercar.gov |
+| Transport Canada Recalls | Canadian vehicle recall database | https://www.tc.canada.ca/en/road-safety |
+| Australian Recalls | Australian vehicle recall search | https://www.vehiclerecalls.gov.au |
+| UK Driver & Vehicle Standards | UK recall and safety information | https://www.gov.uk/check-vehicle-recall |
+
+---
+
+### License Plate Generator (For Training/Testing)
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Acme License Plate Maker | Generate custom license plates for training scenarios | http://www.acme.com/licensemaker |
+| PlateRecognizer Demo | Test license plate recognition without real plates | https://platerecognizer.com/demo |
+
+---
+
+### Stolen Vehicle Databases
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| NICB VINCheck | National Insurance Crime Bureau stolen vehicle check | https://www.nicb.org/vincheck |
+| Stolen 911 | International stolen vehicle database | https://stolen911.com |
+| Bike Index | Stolen bicycle registration and search | https://bikeindex.org |
+| Interpol Stolen Vehicles | Interpol's stolen vehicle database (limited public access) | https://www.interpol.int/How-we-work/Databases/Stolen-Motor-Vehicles |
+
+---
+
 
 ## Practical CLI Examples
 
