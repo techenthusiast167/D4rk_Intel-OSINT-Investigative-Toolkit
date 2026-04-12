@@ -58,6 +58,8 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://stylesuxx.github.io/steganography
 
 - https://www.photopea.com
+
+- https://qrcoderaptor.com
   
 - https://fotoforensics.com
   
@@ -159,7 +161,11 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://gchq.github.io/CyberChef
 
+- https://vayce.app/tools/categories/text-and-data/#section-text
+
 - https://cryptii.com/pipes/caesar-cipher
+
+-  https://www.epochconverter.com/#tools
 
 - https://online-barcode-reader.inliteresearch.com
 
