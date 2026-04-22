@@ -1707,7 +1707,7 @@ site:t.me "Ukraine" "war" after:2022-02-24
 |------|-------------|-----|
 | Telegram API | Official API for programmatic access | https://core.telegram.org/api |
 | Telethon | Python MTProto library for Telegram | https://github.com/LonamiWebs/Telethon |
-| Telegram Scanner | Search Telegram groups and channels | https://tgscan.com |
+| Telegram Scanner | Search Telegram groups and channels | https://github.com/tgscan/tgscan |
 | Lyzem | Telegram search engine | https://lyzem.com |
 | Telegago | Google-powered Telegram search | https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0 |
 | TelegramDB | Directory of Telegram channels | https://telegramdb.org |
