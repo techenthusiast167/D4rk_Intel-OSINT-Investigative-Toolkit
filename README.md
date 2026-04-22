@@ -1599,15 +1599,14 @@ gitrecon -u targetusername
 
 ---
 
-```markdown
 
-- Phase 38: Telegram OSINT Intelligence
+# Telegram OSINT Intelligence
 
 Telegram OSINT is a powerful angle for investigations, as the platform hosts vast amounts of public data that isn't always easy to navigate with its native search. Using Google dorks allows you to bypass Telegram's internal search limitations and index content that has been made public on the web.
 
 ---
 
-- Core Operators for Telegram
+#### Core Operators for Telegram
 
 Before using specific dorks, remember these basic Google operators which form the foundation of any search:
 
@@ -1620,7 +1619,7 @@ Before using specific dorks, remember these basic Google operators which form th
 
 ---
 
-- Advanced Google Dorks for Telegram Investigations
+#### Advanced Google Dorks for Telegram Investigations
 
 Structured list of advanced dorks specifically for Telegram OSINT, categorized by use case.
 
@@ -1647,7 +1646,7 @@ Structured list of advanced dorks specifically for Telegram OSINT, categorized b
 
 ---
 
-- Combined Dork Examples for Telegram OSINT
+#### Combined Dork Examples for Telegram OSINT
 
 | Investigation Goal | Combined Dork Syntax |
 |--------------------|----------------------|
@@ -1660,17 +1659,16 @@ Structured list of advanced dorks specifically for Telegram OSINT, categorized b
 
 ---
 
-Advanced Techniques & Workflows
+### Advanced Techniques & Workflows
 
 Combining these dorks with other techniques can yield powerful results.
 
-1. Finding Private Group Invites (The Pastebin Method)
+#### 1. Finding Private Group Invites (The Pastebin Method)
 
 Investigators often leave digital trails. Use this dork to find invite links to private groups that were publicly posted on code-sharing sites:
 site:pastebin.com intext:t.me/joinchat/
 
-```
-```
+---
 
 **Pro Tip:** Once you find an invite link, use specific Telegram bots (like "Link Creator" or `@get_id_bot`) to reveal the **Creator ID** and potentially the **creation date** of that link, unmasking the administrator behind it.
 
@@ -1688,27 +1686,20 @@ Use dorks to connect a Telegram handle to activity on other platforms:
 
 #### 3. File & Media Discovery
 
-```bash
-
 - Find files shared via Telegram links
 
 "t.me/*" filetype:pdf
 "t.me/*" filetype:jpg OR filetype:png
 "t.me/*" "download" filetype:zip
-```
 
 #### 4. Location-Based Telegram Search
 
-```bash
 
 - Find Telegram content related to specific locations
 
 site:t.me "New York" OR "NYC" "channel"
 site:t.me "London" "underground" OR "metro"
 site:t.me "Ukraine" "war" after:2022-02-24
-```
-
----
 
 ### Telegram-Specific OSINT Tools
 
@@ -1738,24 +1729,6 @@ site:t.me "Ukraine" "war" after:2022-02-24
 
 ---
 
-### Automated Telegram OSINT Scripts
-
-```bash
-
-- Clone Telegram OSINT tools repository
-git clone https://github.com/Itaybre/Telegram-OSINT
-
-- Telegram scraper for channel messages
-git clone https://github.com/tragick/Telegram-Scraper
-
-- Telegram user geolocation tool
-git clone https://github.com/riktor/telegram-geolocation
-
-- Telegram group member scraper
-git clone https://github.com/zoldar/telegram-group-scraper
-```
-
----
 
 ### Practical Investigation Workflow
 
@@ -1801,7 +1774,6 @@ As demonstrated in OSINT research, you can start with a simple dork, find an inv
 
 ### Quick Command Reference
 
-```bash
 
 - Basic username search
 curl -s "https://t.me/@username" | grep -i "title"
@@ -1816,9 +1788,6 @@ done
 
 - Google dork automation (use responsibly)
 python3 fast-google-dorks.py -d "site:t.me 'cybersecurity'" -o results.txt
-
-```
-
 ---
 
 ### Telegram OSINT Resources
@@ -1847,16 +1816,10 @@ Mastering Telegram OSINT is about learning how to force search engines to reveal
 
 *Always operate within legal boundaries and respect platform terms of service while conducting Telegram OSINT investigations.*
 
-```
 
 ---
 
-This markdown is **complete, formatted, and ready to add** to your `D4rk_Intel` repository as **Phase 38: Telegram OSINT Intelligence**. Would you like me to also create a **LinkedIn announcement post** specifically for this new Telegram OSINT phase?
-
-
----
-
-This toolkit is a compilation of community knowledge. Gratitude to the numerous mentors, researchers, and practitioners who have shared their expertise. Special thanks to:
+**This toolkit is a compilation of community knowledge. Gratitude to the numerous mentors, researchers, and practitioners who have shared their expertise. Special thanks to"":
 
 - Michael Bazzell (IntelTechniques)
 - Rae Baker (Maritime SME)
