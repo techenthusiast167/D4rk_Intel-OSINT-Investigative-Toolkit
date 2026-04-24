@@ -1801,6 +1801,27 @@ python3 fast-google-dorks.py -d "site:t.me 'cybersecurity'" -o results.txt
 
 ---
 
+
+### Truecaller Telegram Bots
+
+Truecaller integration is a powerful addition to Telegram OSINT, enabling phone number lookup and caller identification directly within Telegram. Below are the most reliable bots and self-hostable tools.
+
+#### Active Telegram Bots (No Setup Required)
+
+| Bot Name | Username / Link | Description |
+|----------|-----------------|-------------|
+| **Truecaller Bot** | `@true_caller` or [t.me/true_caller](https://t.me/true_caller) | Official-style bot that searches Truecaller's global spam database. Send any phone number with international prefix to identify unknown callers |
+
+**How to use `@true_caller`:**
+
+1. Open Telegram and search for `@true_caller`
+2. Send `/start` to initialize the bot
+3. Type the phone number with international prefix (e.g., `+14155552671`)
+4. Bot returns caller name and spam status if available
+
+
+---
+
 ### Summary
 
 Mastering Telegram OSINT is about learning how to force search engines to reveal the "shadow" links and metadata that platforms don't advertise.
