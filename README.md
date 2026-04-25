@@ -1835,9 +1835,12 @@ Mastering Telegram OSINT is about learning how to force search engines to reveal
 
 *Always operate within legal boundaries and respect platform terms of service while conducting Telegram OSINT investigations.*
 
+
 ---
 
-## Phase 39: Email OSINT – The Digital Foothold
+---
+
+# Email OSINT – The Digital Foothold
 
 ### From a Single Address to Comprehensive Intelligence
 
@@ -1875,11 +1878,11 @@ Before executing any queries, define your scope using this framework:
 **Progression:** Email Address → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Complete Intel Profile
 
 
-
+---
 
 ---
 
-## PHASE 1: Email Validity Checkup
+# Email Validity Checkup
 
 Verify the email exists and can receive messages before investing time.
 
@@ -1894,10 +1897,10 @@ Verify the email exists and can receive messages before investing time.
 # Install holehe
 pip install holehe
 
-# Run check on target email
+### Run check on target email
 holehe target@email.com
 
-# Output shows which platforms have accounts registered
+### Output shows which platforms have accounts registered
 
 
 **Investigator's Note**: "Before investing time in deep investigation, verify the email actually exists. A valid email means you're on the right track. An invalid one saves you from chasing ghosts."
@@ -1914,7 +1917,7 @@ holehe target@email.com
 | Username only | `"username"` | Find username across web | `"preciousvincentct"` |
 | Name + keyword | `"Full Name" "keyword"` | Professional mentions | `"Precious Vincent" "OSINT"` |
 | Site restrict | `site:linkedin.com "Full Name"` | Search specific platform | `"Precious Vincent" site:linkedin.com` |
-| Filetype | `"email" filetype:pdf` | Find leaked documents | `"preciousvincentct@gmail.com" filetype:pdf` |
+| Filetype | `"email" filetype:pdf` | Find leaked documents | `"preciousvincentct@gmail.com" filetype:pdf OR filetype:doc OR filetype:docx OR filetype:xls OR filetype:xlsx OR filetype:txt` |
 | Exclude | `"username" -site:pinterest.com` | Remove noise | `"preciousvincentct" -site:pinterest.com` |
 | Intext domain | `intext:"@domain.com" -site:domain.com` | Find domain mentions on third-party sites | `intext:"@company.com" -site:company.com` |
 | Inurl email | `inurl:"username@domain.com"` | Email in URL | `inurl:"preciousvincentct@gmail.com"` |
@@ -1930,7 +1933,7 @@ holehe target@email.com
 | Same operators | Yandex indexes Russian-language and different content | Run all Google queries on https://yandex.com |
 | Image search | Find visual matches if photos discovered | Reverse image search |
 
-> **Investigator's Note:** *"Google is your starting point, but never stop there. Yandex often indexes different content—especially from Russian-language sites and forums. Always run the same queries on both."*
+**Investigator's Note:** *"Google is your starting point, but never stop there. Yandex often indexes different content—especially from Russian-language sites and forums. Always run the same queries on both."*
 
 ---
 
@@ -2004,8 +2007,6 @@ Use password reset pages to verify account existence without compromising access
 | LinkedIn | https://www.linkedin.com/checkpoint/rp/request-password-reset | Professional account verification |
 
 ### Important Ethical Note
-
-**IMPORTANT ETHICAL NOTE:**
 
 > - Use ONLY for existence verification
 > - Do NOT complete password reset
