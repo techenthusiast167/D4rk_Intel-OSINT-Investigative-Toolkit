@@ -2157,6 +2157,7 @@ Everything begins with a single artifact: **Target: techenthusiast167**
 
 
 **Key mindset:**
+
 - Treat the username as a **primary identifier**
 - Assume reuse unless proven otherwise
 
@@ -2170,7 +2171,7 @@ Your goal here is **breadth**—find everywhere the username exists.
 
 - Automated tools (e.g., Sherlock-style enumeration)
 - Manual platform searches
-- Search engine queries:
+- Search engine queries (examples):
 
 "techenthusiast167"
 
