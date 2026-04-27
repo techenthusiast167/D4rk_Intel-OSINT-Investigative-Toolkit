@@ -131,6 +131,7 @@ Decode encoded data, parse formats, and convert timestamps.
 | Online Barcode Reader | Decode barcodes from images | https://online-barcode-reader.inliteresearch.com |
 | DenCode | All-in-one encoding, decoding, and hashing tool | https://dencode.com/en |
 | BCBP Decoder | Decode boarding pass barcodes | https://jia.je/decode-bcbp |
+| Zero-Width Text Encoder & Decoder | Encode or decode private message hidden within a public message | https://stegzero.com |
 
 ---
 
