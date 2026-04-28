@@ -132,6 +132,8 @@ Decode encoded data, parse formats, and convert timestamps.
 | DenCode | All-in-one encoding, decoding, and hashing tool | https://dencode.com/en |
 | BCBP Decoder | Decode boarding pass barcodes | https://jia.je/decode-bcbp |
 | Zero-Width Text Encoder & Decoder | Encode or decode private message hidden within a public message | https://stegzero.com |
+| Password_Link | Share sensitive information—such as passwords, API keys, or files—via one-time, self-destructing links | https://password.link/en |
+| Encrypt Online | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase| https://encrypt-online.com |
 
 ---
 
