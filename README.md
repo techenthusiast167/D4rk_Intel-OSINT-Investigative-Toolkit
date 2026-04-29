@@ -2389,6 +2389,122 @@ But only if you follow a disciplined investigative workflow.
 
 ---
 
+
+# Reddit OSINT – The Complete Investigation Toolkit
+
+### Beyond Memes: Uncovering the Person Behind the Screen
+
+Reddit is one of the most valuable sources for OSINT investigations. With over 430 million monthly active users and billions of public posts and comments, it offers an unprecedented window into individual behavior, beliefs, affiliations, and communities.
+
+**A single username can reveal:**
+
+| Intelligence Type | What You Can Learn |
+|-------------------|---------------------|
+| Behavioral patterns | Posting times, comment frequency, activity consistency |
+| Psychological profile | Language patterns, emotional tone, interests |
+| Community affiliations | Subreddit participation, ideological leanings |
+| Real-world clues | Location hints, employment, relationships |
+| Historical record | Changed opinions, deleted content, evolution over time |
+
+---
+
+### Profile Analysis Tools
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Redective | Comprehensive Reddit user search. Pulls account creation date, karma, submissions, comments, most used words, and hourly activity | https://www.redective.com |
+| Redditmetis | Advanced profile analytics with sentiment scoring and activity heatmaps | https://redditmetis.com |
+
+### Post & Comment Search Tools
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Samac.io | Reddit post and comment search engine with author, subreddit, score, and date filters | https://samac.io |
+| PullPush.io | Historical Reddit API archive. Recovers deleted and removed content | https://pullpush.io |
+| Reddit Comment Search | Search within a specific user's comment history | https://redditcommentsearch.com |
+| Better Reddit Search | Enhanced Reddit post search with advanced filters | https://better.redditsearch.io |
+| Arctic Shift (Photon) | Large historical archive searchable by post, comment, or ID | https://arctic-shift.photon-reddit.com |
+
+### Deleted Content Recovery
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Reveddit | View removed posts and comments (moderator/admin removal, not user-deleted) | https://reveddit.com |
+| PullPush.io | Recovers user-deleted content indexed before deletion | https://pullpush.io |
+| Reddit Archive | Multi-filter archive including deleted and banned posts | https://www.redditarchive.com |
+
+### Subreddit Discovery
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Subreddits.org | Searchable directory of over 3,000 subreddits | https://subreddits.org |
+| Reddit List | Curated directory of popular and niche subreddits | https://redditlist.com |
+
+### Scam & Threat Detection
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Universal Scammer List | Database of known Reddit scammers. Search by username or profile URL | https://universalscammerlist.com |
+| Snooper | Comment activity distribution analysis for automation detection | https://snooper.reddit.com |
+
+### Share Tracking
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Mostly Harmless | Check whether a specific URL has been submitted to Reddit | https://mostlyharmless.party |
+
+---
+
+### Quick Start Commands
+
+
+# Profile Analysis
+
+- https://www.redective.com
+- https://redditmetis.com
+
+# Deleted Content Recovery by username
+
+- https://reveddit.com/user/USERNAME
+- https://pullpush.io/search/comments?author=USERNAME
+
+# Search comments by keyword for a specific user
+
+- https://redditcommentsearch.com
+
+# Check if user is a known scammer
+
+- https://universalscammerlist.com
+
+
+### Tool Selection by Objective
+
+| If you need to... | Use this tool |
+|-------------------|---------------|
+| Analyze user profile | Redective or Redditmetis |
+| Search user's comments | Reddit Comment Search |
+| Find posts by keyword | Samac.io |
+| Recover deleted content | PullPush.io |
+| Check scammer status | Universal Scammer List |
+| Find where a URL was posted | Mostly Harmless |
+| See removed posts | Reveddit |
+
+
+### Legal & Ethical Guidelines
+
+| Principle | Application |
+|-----------|-------------|
+| Public data only | Only access publicly available posts and comments |
+| Respect deletions | Consider if recovery is proportionate to your investigation |
+| No engagement | Never contact Reddit users unless authorized |
+| Evidence integrity | Archive findings via screenshots or Wayback Machine |
+
+This guide is prepared for professional educational purposes only. All techniques should be used legally and ethically with proper authorization.
+
+© 2026 PRECIOUS VINCENT (D4rk_Intel) – All Rights Reserved
+
+---
+
 ---
 
 **This toolkit is a compilation of community knowledge. Gratitude to the numerous mentors, researchers, and practitioners who have shared their expertise. Special thanks to**:
