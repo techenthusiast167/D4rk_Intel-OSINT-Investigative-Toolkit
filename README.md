@@ -189,6 +189,7 @@ Check for compromised credentials and data leaks.
 | Have I Been Pwned | Check email/phone against known breaches | https://haveibeenpwned.com |
 | WhatIsMyIP Breach Check | IP and email breach lookup | https://whatismyipaddress.com/breach-check |
 | BreachDirectory | Search compromised passwords and emails | https://breachdirectory.org |
+| Hudson Rock | Check if a specific email address was compromised by the Infostealer malware | https://www.hudsonrock.com/threat-intelligence-cybercrime-tools |
 
 ---
 
