@@ -1753,12 +1753,28 @@ As demonstrated in OSINT research, you can start with a simple dork, find an inv
 
 **Example Workflow:**
 
-1. Find invite link: `site:pastebin.com intext:t.me/joinchat/`
-2. Extract join code from Pastebin
-3. Use `@get_id_bot` to obtain creator's User ID
-4. Run User ID through Sherlock: `sherlock 123456789`
-5. Discover linked Twitter, Reddit, and GitHub accounts
-6. Build complete persona profile
+1. **Find Invite Link**: Use dorks to find group invite links.
+
+2. **Extract Join Code**: Isolate the unique string from the t.me/joinchat/ link.
+
+3. **Obtain User ID**: Use a bot like @userinfobot or @get_id_bot to get the creator's numerical ID.
+
+4. **Identify Username/Alias (Correction)**:
+   
+- In-App Check: Send the numerical ID to a bot like @CheckID_Bot or use the [Doublegram Lookup](https://www.doublegram.com/marketplace/lookup) to see if that ID is currently linked to a public @username.
+
+- Group Metadata: Search the User ID in Telegram databases or bots like @TgScanRobot to see which public groups the user has joined. Users often use their real alias in group chats.
+
+5. **Run Username Through Sherlock/Maigret**: Once you have an alpha-numeric username (e.g., Jdoe88), run it through [Sherlock](https://github.com/sherlock-project/sherlock) or Maigret to find linked accounts.
+    ◦ sherlock Jdoe88
+    ◦ maigret Jdoe88
+
+6. **Discover Linked Accounts**: Analyze the output for matching Reddit, GitHub, or Twitter profiles.
+
+7. **Build Persona Profile**: Combine the gathered data (bio, location, past posts) into a final profile. 
+
+
+
 
 ---
 
