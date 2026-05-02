@@ -2573,6 +2573,108 @@ This guide is prepared for professional educational purposes only. All technique
 
 ---
 
+# Twitter User ID Finder – Unmasking the Numeric Identifier
+
+**Why Twitter User ID Matters for OSINT**
+
+Every Twitter account has a permanent numeric User ID that never changes—even if the user changes their handle, display name, or profile picture. Unlike usernames, User IDs cannot be altered, making them a reliable fingerprint for tracking accounts across time and investigations.
+
+
+| Use Case | Why User ID is Valuable |
+|----------|------------------------|
+| Account tracking | Handle changes? ID stays the same |
+| Suspended account identification | Find the original account behind a banned handle |
+| API-based OSINT | Many Twitter APIs require User ID, not username |
+| Cross-platform correlation | User ID appears in data leaks and exports |
+| Historical research | Track account activity before handle changes |
+
+
+### The Twitter User ID Workflow
+
+#### Twitter Username / Handle
+
+**STEP 1: Extract User ID** 
+
+ → Use ilo.so/twitter-id or API methods 
+
+ **STEP 2: Verify ID**
+
+  → Use intent URL trick  
+
+  **STEP 3: Use ID for Further Investigation** 
+
+  → API queries, historical data, correlation   
+
+
+### Tool 1: ilo.so/twitter-id – Instant User ID Lookup
+
+| Property | Details |
+|----------|---------|
+| Tool | Twitter User ID Finder |
+| URL | https://ilo.so/twitter-id |
+| Function | Convert any Twitter username to its numeric User ID |
+| Input | Twitter handle (e.g., `@username` or `username`) |
+| Output | Numeric User ID (e.g., `1234567890123456789`) |
+
+
+### Step-by-Step Guide
+
+**STEP 1: Navigate to the tool**
+
+- Open https://ilo.so/twitter-id in your browser
+
+**STEP 2: Enter the Twitter username**
+
+- Type or paste the target's Twitter handle
+- Example: @PreciousVincen14 or PreciousVincen14
+
+**STEP 3: Click "Find User ID"**
+
+- The tool processes the request
+
+**STEP 4: Copy the numeric User ID**
+
+- Example output: 1234567890123456789
+
+
+### Tool 2: The Intent URL Trick – Verify the User ID
+
+Once you have a numeric User ID, you can verify it by constructing a special Twitter URL.
+
+**The Intent URL Format**
+
+- https://twitter.com/intent/user?user_id=INSERT_ID_HERE
+
+### Step-by-Step Guide
+
+**STEP 1: Take the numeric User ID**
+
+- Example: 1234567890123456789
+
+**STEP 2: Insert it into the intent URL**
+
+- https://twitter.com/intent/user?user_id=1234567890123456789
+
+**STEP 3: Paste the URL into your browser and press Enter**
+
+**STEP 4: Twitter will redirect to the user's profile page**
+
+- If the ID is valid → You land on the correct profile
+  
+- If the ID is invalid → Error page or "This account doesn't exist"
+
+### What This Trick Does
+
+| URL Component | Purpose |
+|---------------|---------|
+| `intent/user` | Twitter's internal user redirection endpoint |
+| `?user_id=` | Query parameter that accepts numeric User ID |
+| `INSERT_ID_HERE` | The target's permanent numeric identifier |
+
+**Why this is powerful:** Even if a user changes their handle multiple times, this URL will always find them.
+
+---
+
 ---
 
 **This toolkit is a compilation of community knowledge. Gratitude to the numerous mentors, researchers, and practitioners who have shared their expertise. Special thanks to**:
