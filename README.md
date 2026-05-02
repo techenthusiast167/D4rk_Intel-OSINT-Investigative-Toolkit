@@ -1774,6 +1774,58 @@ As demonstrated in OSINT research, you can start with a simple dork, find an inv
 7. **Build Persona Profile**: Combine the gathered data (bio, location, past posts) into a final profile. 
 
 
+---
+
+# Telegram Channel ID
+
+A Telegram Channel ID is a unique numerical identifier that remains constant even if the channel's name or username changes. Unlike public usernames (e.g., @ChannelName), the ID is essential for technical investigations, automation, and bypassing certain privacy restrictions.  
+
+### 1. How to Extract the Channel ID
+
+There are several reliable methods to find a channel's ID, ranging from simple web-based tricks to using specialized bots.
+
+**Using Telegram Web (Easiest Method)**:  
+
+- Log in to Telegram Web (K or A version).  
+
+- Open the target channel.  
+
+- Look at the URL in your browser. It will typically look like [https://web.telegram.org/k/#-123456789]
+
+- The **ID** is the **number** following the hash (#).
+
+- **Important**: For channels, you must often add -100 to the front of the number (e.g., if the URL shows -123456789, the full API ID is -100123456789).  
+
+# Using Forwarded Messages & Bots:  
+
+- Forward any post from the target channel to an ID-lookup bot.  
+
+Recommended bots include: **@JsonDumpBot, @get_id_bot, or @username_to_id_bot**.  
+
+- The bot will reply with a JSON object or a direct message containing the forward_from_chat ID.  
+
+# Direct Post Links:  
+
+- Right-click a post in the channel and select "Copy Post Link".  
+
+- The link will look like [https://t.me/c/123456789/137]
+
+- The middle number (123456789) is the channel ID. Add -100 to convert it to the standard format.  
+
+### 2. Why the ID is Critical for OSINT
+
+**Persistent Tracking**: While an admin can change the @username to evade search results, the Channel ID is permanent.  
+
+**Private Channel Access**: If you have the ID of a private channel, you can sometimes use it with specific API tools to check if the channel is still active even without an invite link.  
+
+**Cross-Referencing**: Many OSINT databases and dark web archives index Telegram data by Channel ID rather than name.  
+
+**Automation**: If you are using Python libraries like Telethon or Pyrogram, you use the ID to programmatically scrape messages, media, and member lists.  
+
+### 3. Identifying Related Groups
+  
+Often, a channel is linked to a discussion group. You can find this ID by looking for the "Discuss" button at the bottom of the channel or checking the channel's description for linked groups. Gathering IDs for both the broadcast channel and its associated group provides a more complete picture of the target's network.
+
 
 
 ---
