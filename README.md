@@ -2595,7 +2595,8 @@ Every Twitter account has a permanent numeric User ID that never changes—even 
 
 **STEP 1: Extract User ID** 
 
- → Use ilo.so/twitter-id or API methods 
+ → Use https://ilo.so/twitter-id / https://twxpicker.com/user-id-finder / https://commentpicker.com/twitter-id.php /  https://tweethunter.io/twitter-id-converter or API methods 
+ 
 
  **STEP 2: Verify ID**
 
