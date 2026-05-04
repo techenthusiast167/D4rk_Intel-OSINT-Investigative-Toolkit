@@ -156,6 +156,9 @@ Identify individuals, verify contact information, and map relationships.
 | Tool | Description | URL |
 |------|-------------|-----|
 | IntelBase | Aggregated public records and identity search | https://intelbase.is |
+| BehindTheEmail | Aggregated public records and identity search | https://behindtheemail.com |
+| MinerVaOSINT | Aggregated public records and identity search | https://minervaosint.com |
+| OSINTChecker | Aggregated public records and identity search | https://osintcheckbox.com |
 | Radaris | People search and public records | https://radaris.com |
 | WhitePages | Contact information and reverse phone lookup | https://www.whitepages.com |
 | Reverse Email Lookup | Find social profiles from email addresses | https://mailmeteor.com/tools/reverse-email-lookup |
