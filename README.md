@@ -31,6 +31,7 @@ Discover accounts across platforms by username or email.
 | Discord ID | Resolve Discord user IDs to profiles | https://discord.id |
 | Kagi | Privacy-first search engine with username search capabilities | https://kagi.com |
 | IDcrawl | Deep web identity search across social media platforms, usernames, emails, and phone numbers | https://www.idcrawl.com |
+| Imginn | Anonymous Instagram profile viewer and story downloader. View public profiles, posts, stories, and highlights without logging in | https://imginn.com |
 
 ---
 
