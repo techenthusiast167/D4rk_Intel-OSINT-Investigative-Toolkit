@@ -32,6 +32,8 @@ Discover accounts across platforms by username or email.
 | Kagi | Privacy-first search engine with username search capabilities | https://kagi.com |
 | IDcrawl | Deep web identity search across social media platforms, usernames, emails, and phone numbers | https://www.idcrawl.com |
 | Imginn | Anonymous Instagram profile viewer and story downloader. View public profiles, posts, stories, and highlights without logging in | https://imginn.com |
+| Osintgram | CLI tool for Instagram OSINT (requires login) | https://github.com/Datalux/Osintgram |
+| Instaloader | Download Instagram content including photos, videos, and metadata | https://github.com/instaloader/instaloader |
 
 ---
 
