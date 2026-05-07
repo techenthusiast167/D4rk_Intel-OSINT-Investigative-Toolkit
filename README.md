@@ -928,10 +928,7 @@ Extract hidden data from PDFs, Office documents, and eBooks to uncover authorshi
 
 | Tool | Purpose | Key Feature | URL |
 |------|---------|-------------|------------|
-| ExifTool | Universal metadata reader | Reads PDF, DOCX, XLSX, PPTX, EPUB | CLI Tool (Perl) |
-| pdfid | PDF structural analysis | Identifies JavaScript, open actions, and structural anomalies | CLI Tool |
-| pdf-parser | PDF object extraction | Extracts raw objects, streams, and compressed data for deep forensics | CLI Tool |
-| Metagoofil | Domain document harvesting | Searches Google for PDFs/DOCs from a domain and extracts metadata | Kali Linux Tool |
+| Metagoofil | Domain document harvesting | Searches Google for PDFs/DOCs from a domain and extracts metadata | https://github.com/laramies/metagoofil |
 | Metadata2go | Online metadata viewer | Views metadata from PDFs, Office docs, and images | https://www.metadata2go.com |
 | PDF Metadata Check | Online PDF metadata viewer | Views and checks PDF metadata online | https://pdf.businesspress.io |
 | Pics.io | Online PDF metadata viewer | Views embedded PDF metadata | https://pics.io/pdf-metadata-viewer |
