@@ -921,17 +921,12 @@ Tools for identifying vehicles, decoding VINs, researching license plates, and a
 ---
 
 
-## 38 Document Forensics
+## Phase 38: Document Forensics
 
 Extract hidden data from PDFs, Office documents, and eBooks to uncover authorship, edit history, software fingerprints, and internal paths.
 
-### 1. The Tool Table
 
-
-Here is your **corrected and unified** table with key features aligned to each tool's actual purpose.
-
-
-| Tool | Purpose | Key Feature | URL/Access |
+| Tool | Purpose | Key Feature | URL |
 |------|---------|-------------|------------|
 | ExifTool | Universal metadata reader | Reads PDF, DOCX, XLSX, PPTX, EPUB | CLI Tool (Perl) |
 | pdfid | PDF structural analysis | Identifies JavaScript, open actions, and structural anomalies | CLI Tool |
@@ -943,29 +938,48 @@ Here is your **corrected and unified** table with key features aligned to each t
 | Scispace | Online PDF metadata extractor | Extracts metadata from academic PDFs | https://scispace.com/agents/pdf-metadata-extractor-32phwxba |
 
 
+
 ### 2. Practical Examples & Commands
 
-# 1. Basic PDF Metadata Viewing
+#### 1. Basic PDF Metadata Viewing
  
 - exiftool target_document.pdf
 
-# 2. Extract Specific Author/Creator Info
+#### 2. Extract Specific Author/Creator Info
 
 - exiftool -Author -Creator -Producer -CreateDate target_document.pdf
 
-# 3. Bulk Analyze All PDFs in a Folder
+#### 3. Bulk Analyze All PDFs in a Folder
 
 
 - exiftool -csv -Author -CreateDate *.pdf > metadata_export.csv
 
-# 4. Using pdf-parser to look for hidden JavaScript
+#### 4. Using pdf-parser to look for hidden JavaScript
 
 - pdf-parser target_document.pdf --search /JavaScript
 
 
 ---
 
+## Phase 39: Business Intelligence Lookup Tools
+
+Corporate Registry, Sanctions Screening & Due Diligence
+
+| Tool | Purpose | Key Feature | URL |
+|------|---------|-------------|--------------|
+| OCCRP Aleph | Research sanctions lists, corporate registries, and leaked documents | Search millions of documents; cross-reference data across datasets; collaboration workspaces | https://aleph.occrp.org |
+| Entity OSINT Enricher | Generate full OSINT intelligence reports on any company | OFAC sanctions screening, corporate registry lookup, news sentiment analysis, risk level scoring | https://apify.com/george.the.developer/entity-osint-enricher |
+| OSINT Tools Map | Interactive worldwide map of business registries and public records | Country-specific links to corporate registries, court databases, land cadastres, and phone directories | https://osint-tools-map.netlify.app |
+| n8n Organization Research Workflow | Automated multi-source OSINT research on organizations | Searches CourtListener, LegiScan, DocumentCloud, and Serper; verification and de-duplication | https://n8n.io/workflows/12506 |
+| DeepDive | Autonomous OSINT investigation tool | Maps connections between people, companies, and events into interactive 3D graph | https://github.com/Sinndarkblade/deepdive |
+| xPOURY4 Recon | Elite cyber intelligence & digital forensics platform | Professional network intelligence, corporate intelligence gathering, unified multi-vector correlation | https://github.com/xPOURY4/xPOURY4-recon |
+| ShadowDragon Horizon | Enterprise OSINT platform | Digital identity verification, link analysis, network visualization, continuous monitoring | https://shadowdragon.io/platform |
+| Golden Owl | AI-powered strategic business intelligence | 360-degree view of business and third parties; open, deep, and dark web sources | https://goldenowl.ai |
+|OpenCorporates | Largest open database of corporate entities worldwide | 200M+ companies across 140+ jurisdictions; API access; beneficial ownership tracing; officers, filings, and corporate network mapping | https://opencorporates.com |
+| CorporationWiki | US-focused corporate intelligence platform | Address hyperlinking to see other companies/individuals at same location; network visualizations; free access | https://corporationwiki.com |
+
 ---
+
 
 # Practical CLI Examples
 
