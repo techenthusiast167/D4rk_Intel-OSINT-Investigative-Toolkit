@@ -137,6 +137,9 @@ Decode encoded data, parse formats, and convert timestamps.
 | Zero-Width Text Encoder & Decoder | Encode or decode private message hidden within a public message | https://stegzero.com |
 | Password_Link | Share sensitive information—such as passwords, API keys, or files—via one-time, self-destructing links | https://password.link/en |
 | Encrypt Online | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase| https://encrypt-online.com |
+| Axelbase AES-256-CBC | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase | https://axelbase.github.io/aes-256-cbc |
+| Encode-decode AES-256-CBC | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase | https://encode-decode.com/aes-256-cbc-encrypt-online |
+
 
 ---
 
