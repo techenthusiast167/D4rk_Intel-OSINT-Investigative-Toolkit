@@ -121,9 +121,9 @@ Map relationships, entities, and patterns.
 
 ---
 
-## Phase 6: Decoding & Data Transformation
+## Phase 6: Decoding/Encoding & Data Transformation
 
-Decode encoded data, parse formats, and convert timestamps.
+Decode & encoded data, parse formats, and convert timestamps.
 
 | Tool | Description | URL |
 |------|-------------|-----|
@@ -139,6 +139,7 @@ Decode encoded data, parse formats, and convert timestamps.
 | Encrypt Online | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase| https://encrypt-online.com |
 | Axelbase AES-256-CBC | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase | https://axelbase.github.io/aes-256-cbc |
 | Encode-decode AES-256-CBC | A free browser-based utility used to scramble text and data into a secret code (ciphertext) so it cannot be read without a specific passphrase | https://encode-decode.com/aes-256-cbc-encrypt-online |
+| Caesar Cipher Online | Encode and decode messages using Caesar cipher shift with support for multiple alphabets| https://caesar-cipher.com / https://cryptii.com/pipes/caesar-cipher |
 
 
 ---
@@ -200,6 +201,61 @@ Check for compromised credentials and data leaks.
 | Have I Been Pwned | Check email/phone against known breaches | https://haveibeenpwned.com |
 | WhatIsMyIP Breach Check | IP and email breach lookup | https://whatismyipaddress.com/breach-check |
 | BreachDirectory | Search compromised passwords and emails | https://breachdirectory.org |
+| **DeHashed** | Comprehensive breach data search with WHOIS intelligence and real-time monitoring | https://dehashed.com |
+
+
+### DeHashed – Overview
+
+DeHashed is a comprehensive breach data search engine trusted by thousands of law enforcement agencies and Fortune 500 companies  . Unlike free alternatives, DeHashed aggregates sensitive data posted on both the clear-web and deep-web.
+
+**Key OSINT Capabilities:**
+
+| Feature | Description |
+|---------|-------------|
+| **Search** | Search for usernames, email addresses, IP addresses, names, phone numbers, and VINs |
+| **Monitoring** | Receive breach notifications via SMS, email, or webhook |
+| **WHOIS Intelligence** | Access historical WHOIS data, Reverse WHOIS, and domain/IP intelligence |
+| **API Access** | Programmatically query breach data for integration into your own apps |
+
+**Live Statistics (from DeHashed dashboard):**
+- **24+ billion** total records indexed
+- **6-hour** average incident response time
+- **24,000+** data wells
+
+**OSINT Applications:**
+
+| Use Case | How DeHashed Helps |
+|----------|---------------------|
+| **Identity verification** | Confirm if a person's credentials have been exposed |
+| **Password pattern analysis** | Identify password reuse across breached accounts |
+| **Threat intelligence** | Monitor hacker activity in real-time |
+| **Fraud investigation** | Leverage breach data to identify potential identity fraud |
+| **Domain investigation** | Reverse WHOIS to find all domains owned by a registrant |
+
+#### Search Syntax Examples:
+
+**Email search**
+email:user@example.com
+
+**Username search**
+username:john.doe
+
+**IP address search**
+ip:192.168.1.1
+
+**Domain search**
+domain:example.com
+
+**Name search**
+name:"John Smith"
+
+**Phone number search**
+phone:1234567890
+
+Avoid using the + prefix, as special symbols can break the query parser or yield zero results unless escaped. 
+Try variants like phone:"1-234-567-890" if the initial format yields nothing.
+
+You can as well wrap strings in quotation marks.
 
 ---
 
