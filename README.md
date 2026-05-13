@@ -1038,10 +1038,57 @@ Corporate Registry, Sanctions Screening & Due Diligence
 
 ---
 
+## Phase 40: Website & Email Breach Check Tools
 
-# Practical CLI Examples
+### Free Breach Check Tools
 
-### PDF Metadata Extraction with `pdfinfo`
+| Tool | Description | URL |
+|------|-------------|-----|
+| Have I Been Pwned (HIBP) | Search by email or username to see which websites have leaked your data | https://haveibeenpwned.com |
+| DeHashed | Search leaked data including usernames, emails, and IP addresses from clear-web and deep-web sources | https://dehashed.com |
+| Breachsense | Monitors hacker forums and ransomware leak sites in real-time | https://breachsense.com |
+| F-Secure Identity Theft Checker | Free tool that searches known data breaches for your email address | https://www.f-secure.com/en/home/free-tools/identity-theft-checker |
+| Aura Free Dark Web Scan | Checks your email against millions of data points on the dark web | https://aura.com/dark-web-scan |
+| Firefox Monitor | Browser-integrated tool using HIBP database to alert you of breaches | https://monitor.firefox.com |
+| Malwarebytes Digital Footprint Scan | Scans to see if your personal information has been breached or exposed | https://www.malwarebytes.com/digital-footprint-scan |
+
+### Specialized & Enterprise Breach Tools
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| SOCRadar Dark Web Report | Enter a company domain to get real-time snapshot of threats and data exposure | https://socradar.io |
+| VirusTotal | Scan websites and files for malicious content | https://www.virustotal.com |
+| IntelligenceX | Archive-based search engine that tracks data leaks from Tor and I2P | https://intelx.io |
+
+### Domain/Website Breach Check Tools
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| HIBP Domain Search | Verify domain ownership and get report of all leaked email addresses from your domain | https://haveibeenpwned.com/domain |
+| Ebuilder Security Domain Breach Detector | Enter domain, verify ownership, receive leaked credentials report | https://ebuilder.io |
+| SOCRadar Free Dark Web Report | Search domain to see if corporate data is being sold on hacker forums | https://socradar.io |
+
+### Website Compromise & Malware Scanners
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Sucuri SiteCheck | Scan any website URL for malware, defacements, redirects, and out-of-date CMS | https://sitecheck.sucuri.net |
+| Google Transparency Report | Check if Google has flagged a website for malware, phishing, or compromised scripts | https://transparencyreport.google.com/safe-browsing/search |
+| URLVoid | Run a domain through 30+ blocklist engines and reputation databases | https://www.urlvoid.com |
+| MxToolBox Domain Health | Check if website IP address has been blacklisted due to security compromise | https://mxtoolbox.com |
+
+### Other Detection Methods
+
+| Method | Description |
+|--------|-------------|
+| Google Search Console | Google notifies website owners if site has been hacked or shows phishing/malware |
+| Norton Safe Web | Provides trust score and warnings before visiting websites |
+
+---
+
+## PDF Metadata Extraction with `pdfinfo`
+
+#### Practical CLI Examples
 
 ```bash
 - Install poppler-utils (includes pdfinfo)
