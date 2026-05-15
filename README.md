@@ -1035,6 +1035,7 @@ Corporate Registry, Sanctions Screening & Due Diligence
 | Golden Owl | AI-powered strategic business intelligence | 360-degree view of business and third parties; open, deep, and dark web sources | https://goldenowl.ai |
 |OpenCorporates | Largest open database of corporate entities worldwide | 200M+ companies across 140+ jurisdictions; API access; beneficial ownership tracing; officers, filings, and corporate network mapping | https://opencorporates.com |
 | CorporationWiki | US-focused corporate intelligence platform | Address hyperlinking to see other companies/individuals at same location; network visualizations; free access | https://corporationwiki.com |
+| Crunchbase | Company intelligence and private market data | Funding rounds, acquisitions, key executives, investor insights, growth predictions, IPO predictions | https://www.crunchbase.com |
 
 ---
 
