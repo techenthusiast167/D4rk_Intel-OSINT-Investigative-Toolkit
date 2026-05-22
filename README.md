@@ -189,6 +189,8 @@ Identify individuals, verify contact information, and map relationships.
 | Archive.org Advanced Search | Search historical web captures | https://archive.org/advancedsearch.php |
 | Yandex Dork Generator | Generate Yandex-exclusive dork queries for OSINT & bug bounty | https://yandex-dork.lovable.app |
 | Truecaller | Global caller ID and phone number lookup database | https://www.truecaller.com |
+| YouTube MW Metadata | MW Metadata normal grabs singular details about a YouTube video and its uploader, playlist and its creator, or channel | https://mattw.io/youtube-metadata |
+
 
 ---
 
