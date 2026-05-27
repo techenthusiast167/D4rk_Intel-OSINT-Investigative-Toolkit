@@ -190,6 +190,7 @@ Identify individuals, verify contact information, and map relationships.
 | Yandex Dork Generator | Generate Yandex-exclusive dork queries for OSINT & bug bounty | https://yandex-dork.lovable.app |
 | Truecaller | Global caller ID and phone number lookup database | https://www.truecaller.com |
 | YouTube MW Metadata | MW Metadata normal grabs singular details about a YouTube video and its uploader, playlist and its creator, or channel | https://mattw.io/youtube-metadata |
+| ContactOut | AI-powered browser extension that finds personal and work emails + phone numbers directly from LinkedIn profiles | https://contactout.com |
 
 
 ---
@@ -318,7 +319,7 @@ Investigate platforms, extract data, and monitor activity.
 | SearchMyBio | Search social bios across platforms | https://ww38.searchmy.bio |
 | TGStat | Telegram channel and post analytics | https://tgstat.com |
 | Google Trends | Compare search term popularity | https://trends.google.com/trends |
-
+| Twitch ID Lookup | Find Twitch user IDs for streamers and content creators | https://streamplacements.com/free-tools/twitch-id |
 ---
 
 ## Phase 12: Search Engines & Discovery
