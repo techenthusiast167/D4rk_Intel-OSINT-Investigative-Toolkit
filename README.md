@@ -191,6 +191,9 @@ Identify individuals, verify contact information, and map relationships.
 | Truecaller | Global caller ID and phone number lookup database | https://www.truecaller.com |
 | YouTube MW Metadata | MW Metadata normal grabs singular details about a YouTube video and its uploader, playlist and its creator, or channel | https://mattw.io/youtube-metadata |
 | ContactOut | AI-powered browser extension that finds personal and work emails + phone numbers directly from LinkedIn profiles | https://contactout.com |
+| SignalHire | Chrome extension that finds verified email addresses and phone numbers from LinkedIn profiles; bulk finder for up to 1,000 contacts; CRM export | https://chromewebstore.google.com/detail/signalhire-find-email-or/aeidadjdhppdffggfgjpanbafaedankd |
+| GetProspect | A LinkedIn email finder Chrome extension that extracts business email addresses from LinkedIn profiles |  https://chromewebstore.google.com/detail/email-finder-getprospect/bhbcbkonalnjkflmdkdodieehnmmeknp |
+
 
 
 ---
