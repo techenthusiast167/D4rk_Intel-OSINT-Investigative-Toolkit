@@ -1093,7 +1093,7 @@ Corporate Registry, Sanctions Screening & Due Diligence
 
 ---
 
-# Phase 41: Covert Email Generation – Temporary & Anonymous Email Aliases
+## Phase 41: Covert Email Generation – Temporary & Anonymous Email Aliases
 
 Protecting Investigator Identity During OSINT Operations
 
@@ -1119,6 +1119,16 @@ This phase covers tools for generating temporary disposable emails and permanent
 | Combine with VPN | Hides IP address in addition to email |
 | Use dedicated browser profile | Prevents cookie/cache correlation |
 | Disable after investigation | SimpleLogin aliases can be deleted; temporary emails expire automatically |
+
+---
+
+## Phase 42: Munitions & Weapons Intelligence
+
+### Tool Table
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Open Source Munitions Portal (OSMP) | Searchable reference library of verified munition images from active conflict zones. Compare weapon fragments (fins, casings, nosecones) against expert-reviewed database of air-delivered bombs, artillery shells, missiles, and rockets. Created by Airwars and ARES | https://osmp.ngo |
 
 ---
 
