@@ -1093,6 +1093,35 @@ Corporate Registry, Sanctions Screening & Due Diligence
 
 ---
 
+# Phase 41: Covert Email Generation – Temporary & Anonymous Email Aliases
+
+Protecting Investigator Identity During OSINT Operations
+
+When conducting online investigations, using your personal email address creates immediate risk: account tracking, data breaches, spam, and investigator exposure. Covert email addresses allow you to register for platforms, receive verification codes, and communicate anonymously without revealing your real identity.
+
+This phase covers tools for generating temporary disposable emails and permanent anonymous aliases.
+
+### Tool Table
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| EmailOnDeck | Free disposable temporary email service; receive verification codes without revealing real email address | https://www.emailondeck.com |
+| 10MinuteMail | Disposable email address that self-destructs after 10 minutes; instant anonymous inbox | https://10minutemail.com |
+| SimpleLogin | Open-source anonymous email service; create permanent email aliases that forward to your real inbox; can send and reply from aliases | https://simplelogin.io |
+
+
+### Operational Security (OPSEC) Considerations
+
+| Practice | Why It Matters |
+|----------|----------------|
+| Never use personal email | Prevents cross-linking to your real identity |
+| Use different emails per platform | Prevents platforms from correlating your accounts |
+| Combine with VPN | Hides IP address in addition to email |
+| Use dedicated browser profile | Prevents cookie/cache correlation |
+| Disable after investigation | SimpleLogin aliases can be deleted; temporary emails expire automatically |
+
+---
+
 ## PDF Metadata Extraction with `pdfinfo`
 
 #### Practical CLI Examples
