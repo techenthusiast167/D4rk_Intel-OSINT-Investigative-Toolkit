@@ -1143,6 +1143,11 @@ This phase covers tools for generating temporary disposable emails and permanent
 | Markup Hero | Web app that lets you highlight, draw arrows, and type on images or PDFs; no account required | https://markuphero.com |
 | Webvizio | Features cover marker and geometric shapes for hiding sensitive OPSEC data while adding notes to map layouts or social media screenshots | https://webvizio.com |
 | Make Sense AI | Open-source, browser-based tool supporting bounding boxes and polygons for labeling structural or environmental details in images | https://www.makesense.ai |
+| Vidocu | Free online image annotator with arrows, boxes, text labels, and blur tool; no sign-up, no upload (everything runs in browser) | https://vidocu.ai/free-image-annotator |
+
+
+---
+---
 
 ## PDF Metadata Extraction with `pdfinfo`
 
@@ -1284,7 +1289,6 @@ torsocks curl https://check.torproject.org/
 6. Check **Proxy DNS when using SOCKS v5**
 
 ---
-
 ---
 
 
