@@ -1132,6 +1132,18 @@ This phase covers tools for generating temporary disposable emails and permanent
 
 ---
 
+
+## Phase 43: Image Annotation & Redaction Tools
+
+### Tool Table
+
+| Tool | Description | URL |
+|------|-------------|-----|
+| Annotely | Web tool with arrows, shapes, zoom tool, and numbered pins for sequentially documenting OSINT findings on a single image | https://annotely.com |
+| Markup Hero | Web app that lets you highlight, draw arrows, and type on images or PDFs; no account required | https://markuphero.com |
+| Webvizio | Features cover marker and geometric shapes for hiding sensitive OPSEC data while adding notes to map layouts or social media screenshots | https://webvizio.com |
+| Make Sense AI | Open-source, browser-based tool supporting bounding boxes and polygons for labeling structural or environmental details in images | https://www.makesense.ai |
+
 ## PDF Metadata Extraction with `pdfinfo`
 
 #### Practical CLI Examples
@@ -2410,8 +2422,6 @@ Every email address is a digital fingerprint. With the right methodology, tools,
 
 This guide is prepared for professional educational purposes only. All techniques demonstrated should be used legally and ethically with proper authorization. The analyst assumes no responsibility for misuse of this information.
 
-© 2026 PRECIOUS VINCENT (D4rk_Intel) – All Rights Reserved
-
 ---
 ---
 
@@ -2668,10 +2678,7 @@ But only if you follow a disciplined investigative workflow.
 
 *This guide is prepared for professional educational purposes only. All techniques should be used legally and ethically with proper authorization.*
 
-**© 2026 PRECIOUS VINCENT (D4rk_Intel) – All Rights Reserved**
-
-
-
+---
 ---
 
 
@@ -2786,8 +2793,7 @@ Reddit is one of the most valuable sources for OSINT investigations. With over 4
 
 This guide is prepared for professional educational purposes only. All techniques should be used legally and ethically with proper authorization.
 
-© 2026 PRECIOUS VINCENT (D4rk_Intel) – All Rights Reserved
-
+---
 ---
 
 # Twitter User ID Finder – Unmasking the Numeric Identifier
@@ -2892,7 +2898,6 @@ Once you have a numeric User ID, you can verify it by constructing a special Twi
 **Why this is powerful:** Even if a user changes their handle multiple times, this URL will always find them.
 
 ---
-
 ---
 
 **This toolkit is a compilation of community knowledge. Gratitude to the numerous mentors, researchers, and practitioners who have shared their expertise. Special thanks to**:
@@ -2907,5 +2912,5 @@ Once you have a numeric User ID, you can verify it by constructing a special Twi
 This resource will be continuously updated. Contributions, corrections, and additions are welcome.
 
 ---
-
+---
 **Disclaimer:** This toolkit is for **educational and lawful purposes only**. Users are responsible for compliance with all applicable laws and regulations. The author does not endorse or encourage illegal activity.
