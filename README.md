@@ -77,6 +77,7 @@ Extract hidden data, detect manipulation, and analyze visual content.
 | Stolen Camera Finder | Find photos taken with a specific camera by serial | https://www.stolencamerafinder.com |
 | Labnol Reverse | Simple reverse image search tool | https://www.labnol.org/reverse |
 | Infringement Report | API-based reverse image search for copyright | https://infringement.report/api/raider-reverse-image-search |
+| Pinetools - Merge-images | Simple image editing tool | https://pinetools.com/merge-images |
 
 ---
 
