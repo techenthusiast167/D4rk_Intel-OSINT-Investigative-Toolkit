@@ -166,6 +166,7 @@ Identify individuals, verify contact information, and map relationships.
 | IntelBase | Aggregated public records and identity search | https://intelbase.is |
 | BehindTheEmail | Aggregated public records and identity search | https://behindtheemail.com |
 | MinerVaOSINT | Aggregated public records and identity search | https://minervaosint.com |
+| Fingerprint.to Demo | Username and email intelligence lookup tool | https://fingerprint.to/demo |
 | OSINTChecker | Aggregated public records and identity search | https://osintcheckbox.com |
 | Radaris | People search and public records | https://radaris.com |
 | WhitePages | Contact information and reverse phone lookup | https://www.whitepages.com |
@@ -194,6 +195,7 @@ Identify individuals, verify contact information, and map relationships.
 | ContactOut | AI-powered browser extension that finds personal and work emails + phone numbers directly from LinkedIn profiles | https://contactout.com |
 | SignalHire | Chrome extension that finds verified email addresses and phone numbers from LinkedIn profiles; bulk finder for up to 1,000 contacts; CRM export | https://chromewebstore.google.com/detail/signalhire-find-email-or/aeidadjdhppdffggfgjpanbafaedankd |
 | GetProspect | A LinkedIn email finder Chrome extension that extracts business email addresses from LinkedIn profiles |  https://chromewebstore.google.com/detail/email-finder-getprospect/bhbcbkonalnjkflmdkdodieehnmmeknp |
+
 
 
 
