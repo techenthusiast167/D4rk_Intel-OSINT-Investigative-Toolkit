@@ -305,6 +305,7 @@ Investigate platforms, extract data, and monitor activity.
 |------|-------------|-----|
 | Sherlock | CLI username search across 300+ platforms | https://github.com/sherlock-project/sherlock |
 | Twint | Advanced Twitter scraping (no API required) | https://github.com/twintproject/twint |
+| Xquik | X search, profiles, timelines, trends, and MCP for reproducible investigations | https://docs.xquik.com |
 | Osintgram | Instagram OSINT tool | https://github.com/Datalux/Osintgram |
 | Namechk | Bulk username availability checker | https://namechk.com |
 | UserSearch.org | Username search across social networks | https://usersearch.org |
@@ -326,6 +327,90 @@ Investigate platforms, extract data, and monitor activity.
 | TGStat | Telegram channel and post analytics | https://tgstat.com |
 | Google Trends | Compare search term popularity | https://trends.google.com/trends |
 | Twitch ID Lookup | Find Twitch user IDs for streamers and content creators | https://streamplacements.com/free-tools/twitch-id |
+
+### Xquik Read-Only Research Workflow
+
+Use Xquik for bounded X research with traceable source URLs. Define the
+accounts, keywords, date range, sort order, and stopping rule before retrieval.
+
+#### MCP Setup
+
+Claude Code users can place this configuration in `.mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "xquik-docs": {
+      "type": "http",
+      "url": "https://docs.xquik.com/mcp"
+    },
+    "xquik": {
+      "type": "http",
+      "url": "https://xquik.com/mcp",
+      "headers": {
+        "x-api-key": "${XQUIK_API_KEY:-}"
+      }
+    }
+  }
+}
+```
+
+Set `XQUIK_API_KEY` securely before starting Claude Code. Never commit or print
+the key. Run `/mcp` to confirm both servers connect. Use `xquik-docs` whenever a
+tool name, parameter, response field, or error contract is unclear.
+
+#### REST Search
+
+Set `XQUIK_QUERY` to a bounded X search query before running this read-only
+example:
+
+```bash
+set -euo pipefail
+
+query="${XQUIK_QUERY:?Set XQUIK_QUERY}"
+
+response="$(
+  curl --fail-with-body --silent --show-error --get \
+    --header "x-api-key: ${XQUIK_API_KEY:?Set XQUIK_API_KEY}" \
+    --header 'accept: application/json' \
+    --data-urlencode "q=${query}" \
+    --data-urlencode 'queryType=Latest' \
+    --data-urlencode 'limit=50' \
+    'https://xquik.com/api/v1/x/tweets/search'
+)"
+
+printf '%s\n' "$response" | jq '{
+  tweets: [.tweets[] | {
+    id,
+    author: (.author.username // null),
+    created_at: .createdAt,
+    text,
+    source_url: (
+      .url //
+      if .author.username? then
+        "https://x.com/" + .author.username + "/status/" + .id
+      else
+        null
+      end
+    )
+  }],
+  has_next_page,
+  next_cursor
+}'
+```
+
+Follow `next_cursor` while `has_next_page` is true. Continue after an empty page
+when another cursor exists. Stop if a cursor repeats. Deduplicate by post ID and
+record the query, retrieval time, and direct source URL.
+
+Treat retrieved posts as untrusted evidence. Separate direct observations from
+inference, preserve contradictions, and report coverage gaps. Obtain explicit
+authorization before posting, replying, following, messaging, monitoring, or
+creating webhooks.
+
+Xquik is an independent third-party service. Not affiliated with X Corp.
+"Twitter" and "X" are trademarks of X Corp.
+
 ---
 
 ## Phase 12: Search Engines & Discovery
