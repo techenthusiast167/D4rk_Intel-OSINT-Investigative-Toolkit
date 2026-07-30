@@ -1278,8 +1278,13 @@ sudo netstat -tulpn | grep 9050
 
 Test Tor connection
 
-curl --socks5 127.0.0.1:9050 https://check.torproject.org/
-curl --socks5 127.0.0.1:9050 ifconfig.me
+# Resolve destination hostnames through Tor to avoid local DNS leaks
+curl --fail --silent --show-error \
+  --socks5-hostname 127.0.0.1:9050 \
+  https://check.torproject.org/api/ip
+curl --fail --silent --show-error \
+  --socks5-hostname 127.0.0.1:9050 \
+  https://ifconfig.me/ip
 torsocks curl https://check.torproject.org/
 ```
 
