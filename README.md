@@ -294,6 +294,7 @@ Pinpoint locations, analyze geographic data, and visualize spatial relationships
 | FreeMapTools | Radius mapping and geofencing | https://www.freemaptools.com/radius-around-point.htm |
 | NASA Worldview | Real-time satellite imagery | https://www.earthdata.nasa.gov/data/tools/worldview |
 | ArcGIS Web App Viewer | ESRI's GIS mapping platform | https://www.arcgis.com/apps/webappviewer/index.html |
+| IPGeoLocation.io | IP-to-location mapping | https://ipgeolocation.io |
 
 ---
 
@@ -403,6 +404,7 @@ Investigate infrastructure, DNS records, and ownership.
 | Subdomain Finder | Discover subdomains | https://subdomainfinder.c99.nl |
 | DNShistory | Historical DNS records | https://dnshistory.org |
 | Whoisology | Historical WHOIS records | https://whoisology.com |
+| Whoisfreaks | WHOIS & domain history lookup | https://whoisfreaks.com |
 | HackerTarget | Online security scanning tools | https://hackertarget.com |
 | Nmap Online | Port scanning web interface | https://nmap.online |
 | BuiltWith | Website technology profiler | https://builtwith.com |
@@ -717,6 +719,7 @@ Mega-lists and starter packs.
 | BBC Africa Eye | Forensics dashboard | https://start.me/p/m6OJgv/the-bbc-africa-eye-forensics-dashboard |
 | Aware Online | Dutch OSINT tools | https://www.aware-online.com/en/osint-tools |
 | Free Cyber Resources | Comprehensive list | https://github.com/gerryguy311/Free_CyberSecurity_Professional_Development_Resources/blob/master/README.md |
+| APIFreaks | A unified API hub combining WHOIS, IP geolocation, domain intelligence, and 60+ production-ready APIs under a single key | https://apifreaks.com |
 
 ---
 
