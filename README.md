@@ -167,6 +167,7 @@ Identify individuals, verify contact information, and map relationships.
 | BehindTheEmail | Aggregated public records and identity search | https://behindtheemail.com |
 | MinerVaOSINT | Aggregated public records and identity search | https://minervaosint.com |
 | Fingerprint.to Demo | Username and email intelligence lookup tool | https://fingerprint.to/demo |
+| EmailOSINT.org | Username and email intelligence lookup tool | https://emailosint.org |
 | OSINTChecker | Aggregated public records and identity search | https://osintcheckbox.com |
 | Radaris | People search and public records | https://radaris.com |
 | WhitePages | Contact information and reverse phone lookup | https://www.whitepages.com |
