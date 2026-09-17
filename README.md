@@ -1111,6 +1111,7 @@ This phase covers tools for generating temporary disposable emails and permanent
 |------|-------------|-----|
 | EmailOnDeck | Free disposable temporary email service; receive verification codes without revealing real email address | https://www.emailondeck.com |
 | 10MinuteMail | Disposable email address that self-destructs after 10 minutes; instant anonymous inbox | https://10minutemail.com |
+| Mailfo | Instant disposable temporary email & OTP receiver service; anonymous inbox with web & Android client | https://mailfo.pages.dev |
 | SimpleLogin | Open-source anonymous email service; create permanent email aliases that forward to your real inbox; can send and reply from aliases | https://simplelogin.io |
 
 
