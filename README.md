@@ -305,7 +305,7 @@ Investigate platforms, extract data, and monitor activity.
 | Tool | Description | URL |
 |------|-------------|-----|
 | Sherlock | CLI username search across 300+ platforms | https://github.com/sherlock-project/sherlock |
-| Twint | Advanced Twitter scraping (no API required) | https://github.com/twintproject/twint |
+| Twint | Advanced Twitter scraping (no API required; repository archived Mar 2023) | https://github.com/twintproject/twint |
 | Osintgram | Instagram OSINT tool | https://github.com/Datalux/Osintgram |
 | Namechk | Bulk username availability checker | https://namechk.com |
 | UserSearch.org | Username search across social networks | https://usersearch.org |
@@ -314,6 +314,7 @@ Investigate platforms, extract data, and monitor activity.
 | Brandwatch | Enterprise social listening | https://www.brandwatch.com |
 | Foller.me | Twitter profile analytics | https://foller.me |
 | Twitonomy | Detailed Twitter analytics | https://www.twitonomy.com |
+| twtData | Bot-score checker for any public X account (free, no sign-up) and follower/following list export to CSV (paid) | https://twtdata.com/crypto-kol-checker/ |
 | Tinfoleak | Twitter geolocation and analysis | https://tinfoleak.com |
 | WhoPostedWhat | Search social media posts by keyword | https://whopostedwhat.com |
 | Imginn | Anonymous Instagram viewer | https://imginn.com |
@@ -323,7 +324,6 @@ Investigate platforms, extract data, and monitor activity.
 | LinkedIn SSI | Social Selling Index score | https://www.linkedin.com/sales/ssi |
 | theHarvester | Email and subdomain gathering | https://github.com/laramies/theHarvester |
 | Awesome OSINT | Curated OSINT resource list | https://github.com/jivoi/awesome-osint |
-| SearchMyBio | Search social bios across platforms | https://ww38.searchmy.bio |
 | TGStat | Telegram channel and post analytics | https://tgstat.com |
 | Google Trends | Compare search term popularity | https://trends.google.com/trends |
 | Twitch ID Lookup | Find Twitch user IDs for streamers and content creators | https://streamplacements.com/free-tools/twitch-id |
