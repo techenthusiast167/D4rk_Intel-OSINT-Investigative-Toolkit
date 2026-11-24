@@ -295,6 +295,7 @@ Pinpoint locations, analyze geographic data, and visualize spatial relationships
 | FreeMapTools | Radius mapping and geofencing | https://www.freemaptools.com/radius-around-point.htm |
 | NASA Worldview | Real-time satellite imagery | https://www.earthdata.nasa.gov/data/tools/worldview |
 | ArcGIS Web App Viewer | ESRI's GIS mapping platform | https://www.arcgis.com/apps/webappviewer/index.html |
+| H1DR4 Police Incident Map | Free browser map of monthly Police.uk street-level records in England and Wales, using approximate points | https://h1dr4.dev/map |
 
 ---
 
